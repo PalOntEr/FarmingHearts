@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		915DA0AA2CE1775A003EB5B9 /* dialogs.json in Resources */ = {isa = PBXBuildFile; fileRef = 915DA0A92CE1775A003EB5B9 /* dialogs.json */; };
+		915DA0BB2CE17920003EB5B9 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DA0BA2CE17920003EB5B9 /* Dialog.swift */; };
 		AF2BE2F02CDF3EA400017A59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */; };
 		AF2BE2F22CDF3EA400017A59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */; };
 		AF2BE2F42CDF3EA400017A59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE2F32CDF3EA400017A59 /* ViewController.swift */; };
@@ -93,6 +95,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		915DA0A92CE1775A003EB5B9 /* dialogs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dialogs.json; sourceTree = "<group>"; };
+		915DA0BA2CE17920003EB5B9 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
 		AF2BE2EC2CDF3EA400017A59 /* Farming_Hearts_beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farming_Hearts_beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +214,8 @@
 		AF2BE2EE2CDF3EA400017A59 /* Farming_Hearts_beta */ = {
 			isa = PBXGroup;
 			children = (
+				915DA0BA2CE17920003EB5B9 /* Dialog.swift */,
+				915DA0A92CE1775A003EB5B9 /* dialogs.json */,
 				AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */,
 				AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */,
 				AF2BE2F32CDF3EA400017A59 /* ViewController.swift */,
@@ -376,6 +382,7 @@
 				AF2BE34F2CDF3EEA00017A59 /* Abuelo Feliz.png in Resources */,
 				AF2BE34B2CDF3EEA00017A59 /* Escuela fondo.png in Resources */,
 				AF2BE3442CDF3EEA00017A59 /* Lago fondo.png in Resources */,
+				915DA0AA2CE1775A003EB5B9 /* dialogs.json in Resources */,
 				AF2BE3632CDF3EEA00017A59 /* Rafael Feliz.png in Resources */,
 				AF2BE34C2CDF3EEA00017A59 /* Estacion Fondo.png in Resources */,
 				AF2BE3FE2CDF52BB00017A59 /* flecha_cont.png in Resources */,
@@ -453,6 +460,7 @@
 				AF2BE4122CDFEB6C00017A59 /* ViewControllerarteimagen.swift in Sources */,
 				AF2BE4042CDF592500017A59 /* ViewControllercon.swift in Sources */,
 				AF2BE2F22CDF3EA400017A59 /* SceneDelegate.swift in Sources */,
+				915DA0BB2CE17920003EB5B9 /* Dialog.swift in Sources */,
 				AF2BE40A2CDFDC2100017A59 /* ViewControllergranja.swift in Sources */,
 				AF2BE4062CDFDB8700017A59 /* ViewControllermercado.swift in Sources */,
 				AF2BE3F02CDF434300017A59 /* ViewControllerinicio.swift in Sources */,

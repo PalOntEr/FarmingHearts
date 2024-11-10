@@ -9,8 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let dialogManager = DialogManager()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
+        dialogManager.deJson()
         // Do any additional setup after loading the view.
     }
 
