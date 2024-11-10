@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF2BE2F02CDF3EA400017A59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */; };
+		AF2BE2F22CDF3EA400017A59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */; };
+		AF2BE2F42CDF3EA400017A59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE2F32CDF3EA400017A59 /* ViewController.swift */; };
+		AF2BE2F72CDF3EA400017A59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE2F52CDF3EA400017A59 /* Main.storyboard */; };
+		AF2BE2F92CDF3EA400017A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE2F82CDF3EA400017A59 /* Assets.xcassets */; };
+		AF2BE2FC2CDF3EA400017A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE2FA2CDF3EA400017A59 /* LaunchScreen.storyboard */; };
+		AF2BE33E2CDF3EEA00017A59 /* Belladonna feliz.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3042CDF3EEA00017A59 /* Belladonna feliz.png */; };
+		AF2BE33F2CDF3EEA00017A59 /* Alicia enojada.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3052CDF3EEA00017A59 /* Alicia enojada.png */; };
+		AF2BE3402CDF3EEA00017A59 /* Rafael Serio.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3062CDF3EEA00017A59 /* Rafael Serio.png */; };
+		AF2BE3412CDF3EEA00017A59 /* Louise Enojado.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3072CDF3EEA00017A59 /* Louise Enojado.png */; };
+		AF2BE3422CDF3EEA00017A59 /* Carta Img.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3082CDF3EEA00017A59 /* Carta Img.png */; };
+		AF2BE3432CDF3EEA00017A59 /* Rancho Camino Fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3092CDF3EEA00017A59 /* Rancho Camino Fondo.png */; };
+		AF2BE3442CDF3EEA00017A59 /* Lago fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE30A2CDF3EEA00017A59 /* Lago fondo.png */; };
+		AF2BE3452CDF3EEA00017A59 /* Rectangle 12.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE30B2CDF3EEA00017A59 /* Rectangle 12.png */; };
+		AF2BE3462CDF3EEA00017A59 /* Louisa avergonzada.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE30C2CDF3EEA00017A59 /* Louisa avergonzada.png */; };
+		AF2BE3472CDF3EEA00017A59 /* Belladonna Enojada.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE30D2CDF3EEA00017A59 /* Belladonna Enojada.png */; };
+		AF2BE3482CDF3EEA00017A59 /* Granja fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE30E2CDF3EEA00017A59 /* Granja fondo.png */; };
+		AF2BE3492CDF3EEA00017A59 /* Camino Bosque fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE30F2CDF3EEA00017A59 /* Camino Bosque fondo.png */; };
+		AF2BE34A2CDF3EEA00017A59 /* Alicia triste.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3102CDF3EEA00017A59 /* Alicia triste.png */; };
+		AF2BE34B2CDF3EEA00017A59 /* Escuela fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3112CDF3EEA00017A59 /* Escuela fondo.png */; };
+		AF2BE34C2CDF3EEA00017A59 /* Estacion Fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3122CDF3EEA00017A59 /* Estacion Fondo.png */; };
+		AF2BE34D2CDF3EEA00017A59 /* Abuelo casa fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3132CDF3EEA00017A59 /* Abuelo casa fondo.png */; };
+		AF2BE34E2CDF3EEA00017A59 /* Alicia feliz.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3142CDF3EEA00017A59 /* Alicia feliz.png */; };
+		AF2BE34F2CDF3EEA00017A59 /* Abuelo Feliz.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3152CDF3EEA00017A59 /* Abuelo Feliz.png */; };
+		AF2BE3502CDF3EEA00017A59 /* Alicia avergonzada.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3162CDF3EEA00017A59 /* Alicia avergonzada.png */; };
+		AF2BE3512CDF3EEA00017A59 /* Inicio.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3172CDF3EEA00017A59 /* Inicio.png */; };
+		AF2BE3522CDF3EEA00017A59 /* Louise triste.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3182CDF3EEA00017A59 /* Louise triste.png */; };
+		AF2BE3532CDF3EEA00017A59 /* Mercado fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3192CDF3EEA00017A59 /* Mercado fondo.png */; };
+		AF2BE3542CDF3EEA00017A59 /* Rectangle 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31A2CDF3EEA00017A59 /* Rectangle 4.png */; };
+		AF2BE3552CDF3EEA00017A59 /* Opciones.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31B2CDF3EEA00017A59 /* Opciones.png */; };
+		AF2BE3562CDF3EEA00017A59 /* Indigo triste.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31C2CDF3EEA00017A59 /* Indigo triste.png */; };
+		AF2BE3572CDF3EEA00017A59 /* Depa Fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31D2CDF3EEA00017A59 /* Depa Fondo.png */; };
+		AF2BE3582CDF3EEA00017A59 /* TownHall Fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31E2CDF3EEA00017A59 /* TownHall Fondo.png */; };
+		AF2BE3592CDF3EEA00017A59 /* Rafael Triste.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31F2CDF3EEA00017A59 /* Rafael Triste.png */; };
+		AF2BE35A2CDF3EEA00017A59 /* Louisa Feliz.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3202CDF3EEA00017A59 /* Louisa Feliz.png */; };
+		AF2BE35B2CDF3EEA00017A59 /* Rectangle 6.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3212CDF3EEA00017A59 /* Rectangle 6.png */; };
+		AF2BE35C2CDF3EEA00017A59 /* Rectangle 7.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3222CDF3EEA00017A59 /* Rectangle 7.png */; };
+		AF2BE35D2CDF3EEA00017A59 /* Polygon 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3232CDF3EEA00017A59 /* Polygon 1.png */; };
+		AF2BE35E2CDF3EEA00017A59 /* Louise Avergonzado.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3242CDF3EEA00017A59 /* Louise Avergonzado.png */; };
+		AF2BE35F2CDF3EEA00017A59 /* FARMING HEARTS.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3252CDF3EEA00017A59 /* FARMING HEARTS.png */; };
+		AF2BE3602CDF3EEA00017A59 /* Louisa Enojada.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3262CDF3EEA00017A59 /* Louisa Enojada.png */; };
+		AF2BE3612CDF3EEA00017A59 /* Belladonna Triste.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3272CDF3EEA00017A59 /* Belladonna Triste.png */; };
+		AF2BE3622CDF3EEA00017A59 /* MapaFh 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3282CDF3EEA00017A59 /* MapaFh 1.png */; };
+		AF2BE3632CDF3EEA00017A59 /* Rafael Feliz.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3292CDF3EEA00017A59 /* Rafael Feliz.png */; };
+		AF2BE3642CDF3EEA00017A59 /* Camion Fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE32A2CDF3EEA00017A59 /* Camion Fondo.png */; };
+		AF2BE3652CDF3EEA00017A59 /* Rafael avergonzado.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE32B2CDF3EEA00017A59 /* Rafael avergonzado.png */; };
+		AF2BE3662CDF3EEA00017A59 /* Enfermeria fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE32C2CDF3EEA00017A59 /* Enfermeria fondo.png */; };
+		AF2BE3672CDF3EEA00017A59 /* Rectangle 6-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE32D2CDF3EEA00017A59 /* Rectangle 6-1.png */; };
+		AF2BE3682CDF3EEA00017A59 /* Indigo enojado.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE32E2CDF3EEA00017A59 /* Indigo enojado.png */; };
+		AF2BE3692CDF3EEA00017A59 /* Louisa Triste.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE32F2CDF3EEA00017A59 /* Louisa Triste.png */; };
+		AF2BE36A2CDF3EEA00017A59 /* Oficina Fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3302CDF3EEA00017A59 /* Oficina Fondo.png */; };
+		AF2BE36B2CDF3EEA00017A59 /* Belladonna avergonzada.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3312CDF3EEA00017A59 /* Belladonna avergonzada.png */; };
+		AF2BE36C2CDF3EEA00017A59 /* Rectangle 8.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3322CDF3EEA00017A59 /* Rectangle 8.png */; };
+		AF2BE36D2CDF3EEA00017A59 /* b6b06208d98bcc4e66aef540a11ab00b 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3332CDF3EEA00017A59 /* b6b06208d98bcc4e66aef540a11ab00b 1.png */; };
+		AF2BE36E2CDF3EEA00017A59 /* Abuelo Enojado.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3342CDF3EEA00017A59 /* Abuelo Enojado.png */; };
+		AF2BE36F2CDF3EEA00017A59 /* Alicia seria.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3352CDF3EEA00017A59 /* Alicia seria.png */; };
+		AF2BE3702CDF3EEA00017A59 /* Indigo Feliz.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3362CDF3EEA00017A59 /* Indigo Feliz.png */; };
+		AF2BE3712CDF3EEA00017A59 /* Celular.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3372CDF3EEA00017A59 /* Celular.png */; };
+		AF2BE3722CDF3EEA00017A59 /* Rafael enojado.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3382CDF3EEA00017A59 /* Rafael enojado.png */; };
+		AF2BE3732CDF3EEA00017A59 /* Cuarto fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3392CDF3EEA00017A59 /* Cuarto fondo.png */; };
+		AF2BE3742CDF3EEA00017A59 /* Alcalde.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE33A2CDF3EEA00017A59 /* Alcalde.png */; };
+		AF2BE3752CDF3EEA00017A59 /* Louise Feliz.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE33B2CDF3EEA00017A59 /* Louise Feliz.png */; };
+		AF2BE3762CDF3EEA00017A59 /* image 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE33C2CDF3EEA00017A59 /* image 2.png */; };
+		AF2BE3772CDF3EEA00017A59 /* Indigo Avergonzado.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE33D2CDF3EEA00017A59 /* Indigo Avergonzado.png */; };
+		AF2BE3EE2CDF413300017A59 /* hoja2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3ED2CDF413300017A59 /* hoja2.png */; };
+		AF2BE3F02CDF434300017A59 /* ViewControllerinicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE3EF2CDF434300017A59 /* ViewControllerinicio.swift */; };
+		AF2BE3F22CDF475A00017A59 /* WhatsApp Image 2024-11-09 at 1.30.49 AM.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3F12CDF475A00017A59 /* WhatsApp Image 2024-11-09 at 1.30.49 AM.jpeg */; };
+		AF2BE3F82CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (2).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3F32CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (2).jpeg */; };
+		AF2BE3F92CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3F42CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM.jpeg */; };
+		AF2BE3FA2CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3F52CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (1).jpeg */; };
+		AF2BE3FB2CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (3).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3F62CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (3).jpeg */; };
+		AF2BE3FC2CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (4).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3F72CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (4).jpeg */; };
+		AF2BE3FE2CDF52BB00017A59 /* flecha_cont.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3FD2CDF52BB00017A59 /* flecha_cont.png */; };
+		AF2BE4002CDF535E00017A59 /* ViewControlleropc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE3FF2CDF535E00017A59 /* ViewControlleropc.swift */; };
+		AF2BE4022CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE4012CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg */; };
+		AF2BE4042CDF592500017A59 /* ViewControllercon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4032CDF592500017A59 /* ViewControllercon.swift */; };
+		AF2BE4062CDFDB8700017A59 /* ViewControllermercado.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4052CDFDB8700017A59 /* ViewControllermercado.swift */; };
+		AF2BE4082CDFDBD700017A59 /* ViewControllerescuela.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4072CDFDBD700017A59 /* ViewControllerescuela.swift */; };
+		AF2BE40A2CDFDC2100017A59 /* ViewControllergranja.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4092CDFDC2100017A59 /* ViewControllergranja.swift */; };
+		AF2BE40C2CDFDCA200017A59 /* ViewControllerbosque.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE40B2CDFDCA200017A59 /* ViewControllerbosque.swift */; };
+		AF2BE40E2CDFDCC900017A59 /* ViewControllerayu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE40D2CDFDCC900017A59 /* ViewControllerayu.swift */; };
+		AF2BE4102CDFDE3400017A59 /* ViewControllercasas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE40F2CDFDE3400017A59 /* ViewControllercasas.swift */; };
+		AF2BE4122CDFEB6C00017A59 /* ViewControllerarteimagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4112CDFEB6C00017A59 /* ViewControllerarteimagen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF2BE2EC2CDF3EA400017A59 /* Farming_Hearts_beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farming_Hearts_beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF2BE2F32CDF3EA400017A59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF2BE2F62CDF3EA400017A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF2BE2F82CDF3EA400017A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF2BE2FB2CDF3EA400017A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF2BE2FD2CDF3EA400017A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2BE3042CDF3EEA00017A59 /* Belladonna feliz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Belladonna feliz.png"; sourceTree = "<group>"; };
+		AF2BE3052CDF3EEA00017A59 /* Alicia enojada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alicia enojada.png"; sourceTree = "<group>"; };
+		AF2BE3062CDF3EEA00017A59 /* Rafael Serio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael Serio.png"; sourceTree = "<group>"; };
+		AF2BE3072CDF3EEA00017A59 /* Louise Enojado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Louise Enojado.png"; sourceTree = "<group>"; };
+		AF2BE3082CDF3EEA00017A59 /* Carta Img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carta Img.png"; sourceTree = "<group>"; };
+		AF2BE3092CDF3EEA00017A59 /* Rancho Camino Fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rancho Camino Fondo.png"; sourceTree = "<group>"; };
+		AF2BE30A2CDF3EEA00017A59 /* Lago fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lago fondo.png"; sourceTree = "<group>"; };
+		AF2BE30B2CDF3EEA00017A59 /* Rectangle 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 12.png"; sourceTree = "<group>"; };
+		AF2BE30C2CDF3EEA00017A59 /* Louisa avergonzada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Louisa avergonzada.png"; sourceTree = "<group>"; };
+		AF2BE30D2CDF3EEA00017A59 /* Belladonna Enojada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Belladonna Enojada.png"; sourceTree = "<group>"; };
+		AF2BE30E2CDF3EEA00017A59 /* Granja fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Granja fondo.png"; sourceTree = "<group>"; };
+		AF2BE30F2CDF3EEA00017A59 /* Camino Bosque fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camino Bosque fondo.png"; sourceTree = "<group>"; };
+		AF2BE3102CDF3EEA00017A59 /* Alicia triste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alicia triste.png"; sourceTree = "<group>"; };
+		AF2BE3112CDF3EEA00017A59 /* Escuela fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Escuela fondo.png"; sourceTree = "<group>"; };
+		AF2BE3122CDF3EEA00017A59 /* Estacion Fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Estacion Fondo.png"; sourceTree = "<group>"; };
+		AF2BE3132CDF3EEA00017A59 /* Abuelo casa fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Abuelo casa fondo.png"; sourceTree = "<group>"; };
+		AF2BE3142CDF3EEA00017A59 /* Alicia feliz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alicia feliz.png"; sourceTree = "<group>"; };
+		AF2BE3152CDF3EEA00017A59 /* Abuelo Feliz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Abuelo Feliz.png"; sourceTree = "<group>"; };
+		AF2BE3162CDF3EEA00017A59 /* Alicia avergonzada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alicia avergonzada.png"; sourceTree = "<group>"; };
+		AF2BE3172CDF3EEA00017A59 /* Inicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inicio.png; sourceTree = "<group>"; };
+		AF2BE3182CDF3EEA00017A59 /* Louise triste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Louise triste.png"; sourceTree = "<group>"; };
+		AF2BE3192CDF3EEA00017A59 /* Mercado fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mercado fondo.png"; sourceTree = "<group>"; };
+		AF2BE31A2CDF3EEA00017A59 /* Rectangle 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 4.png"; sourceTree = "<group>"; };
+		AF2BE31B2CDF3EEA00017A59 /* Opciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opciones.png; sourceTree = "<group>"; };
+		AF2BE31C2CDF3EEA00017A59 /* Indigo triste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indigo triste.png"; sourceTree = "<group>"; };
+		AF2BE31D2CDF3EEA00017A59 /* Depa Fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Depa Fondo.png"; sourceTree = "<group>"; };
+		AF2BE31E2CDF3EEA00017A59 /* TownHall Fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TownHall Fondo.png"; sourceTree = "<group>"; };
+		AF2BE31F2CDF3EEA00017A59 /* Rafael Triste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael Triste.png"; sourceTree = "<group>"; };
+		AF2BE3202CDF3EEA00017A59 /* Louisa Feliz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Louisa Feliz.png"; sourceTree = "<group>"; };
+		AF2BE3212CDF3EEA00017A59 /* Rectangle 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 6.png"; sourceTree = "<group>"; };
+		AF2BE3222CDF3EEA00017A59 /* Rectangle 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 7.png"; sourceTree = "<group>"; };
+		AF2BE3232CDF3EEA00017A59 /* Polygon 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Polygon 1.png"; sourceTree = "<group>"; };
+		AF2BE3242CDF3EEA00017A59 /* Louise Avergonzado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Louise Avergonzado.png"; sourceTree = "<group>"; };
+		AF2BE3252CDF3EEA00017A59 /* FARMING HEARTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FARMING HEARTS.png"; sourceTree = "<group>"; };
+		AF2BE3262CDF3EEA00017A59 /* Louisa Enojada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Louisa Enojada.png"; sourceTree = "<group>"; };
+		AF2BE3272CDF3EEA00017A59 /* Belladonna Triste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Belladonna Triste.png"; sourceTree = "<group>"; };
+		AF2BE3282CDF3EEA00017A59 /* MapaFh 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapaFh 1.png"; sourceTree = "<group>"; };
+		AF2BE3292CDF3EEA00017A59 /* Rafael Feliz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael Feliz.png"; sourceTree = "<group>"; };
+		AF2BE32A2CDF3EEA00017A59 /* Camion Fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camion Fondo.png"; sourceTree = "<group>"; };
+		AF2BE32B2CDF3EEA00017A59 /* Rafael avergonzado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael avergonzado.png"; sourceTree = "<group>"; };
+		AF2BE32C2CDF3EEA00017A59 /* Enfermeria fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Enfermeria fondo.png"; sourceTree = "<group>"; };
+		AF2BE32D2CDF3EEA00017A59 /* Rectangle 6-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 6-1.png"; sourceTree = "<group>"; };
+		AF2BE32E2CDF3EEA00017A59 /* Indigo enojado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indigo enojado.png"; sourceTree = "<group>"; };
+		AF2BE32F2CDF3EEA00017A59 /* Louisa Triste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Louisa Triste.png"; sourceTree = "<group>"; };
+		AF2BE3302CDF3EEA00017A59 /* Oficina Fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oficina Fondo.png"; sourceTree = "<group>"; };
+		AF2BE3312CDF3EEA00017A59 /* Belladonna avergonzada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Belladonna avergonzada.png"; sourceTree = "<group>"; };
+		AF2BE3322CDF3EEA00017A59 /* Rectangle 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 8.png"; sourceTree = "<group>"; };
+		AF2BE3332CDF3EEA00017A59 /* b6b06208d98bcc4e66aef540a11ab00b 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b6b06208d98bcc4e66aef540a11ab00b 1.png"; sourceTree = "<group>"; };
+		AF2BE3342CDF3EEA00017A59 /* Abuelo Enojado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Abuelo Enojado.png"; sourceTree = "<group>"; };
+		AF2BE3352CDF3EEA00017A59 /* Alicia seria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alicia seria.png"; sourceTree = "<group>"; };
+		AF2BE3362CDF3EEA00017A59 /* Indigo Feliz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indigo Feliz.png"; sourceTree = "<group>"; };
+		AF2BE3372CDF3EEA00017A59 /* Celular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Celular.png; sourceTree = "<group>"; };
+		AF2BE3382CDF3EEA00017A59 /* Rafael enojado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rafael enojado.png"; sourceTree = "<group>"; };
+		AF2BE3392CDF3EEA00017A59 /* Cuarto fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cuarto fondo.png"; sourceTree = "<group>"; };
+		AF2BE33A2CDF3EEA00017A59 /* Alcalde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alcalde.png; sourceTree = "<group>"; };
+		AF2BE33B2CDF3EEA00017A59 /* Louise Feliz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Louise Feliz.png"; sourceTree = "<group>"; };
+		AF2BE33C2CDF3EEA00017A59 /* image 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image 2.png"; sourceTree = "<group>"; };
+		AF2BE33D2CDF3EEA00017A59 /* Indigo Avergonzado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indigo Avergonzado.png"; sourceTree = "<group>"; };
+		AF2BE3ED2CDF413300017A59 /* hoja2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoja2.png; sourceTree = "<group>"; };
+		AF2BE3EF2CDF434300017A59 /* ViewControllerinicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerinicio.swift; sourceTree = "<group>"; };
+		AF2BE3F12CDF475A00017A59 /* WhatsApp Image 2024-11-09 at 1.30.49 AM.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-11-09 at 1.30.49 AM.jpeg"; sourceTree = "<group>"; };
+		AF2BE3F32CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (2).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-11-09 at 1.49.52 AM (2).jpeg"; sourceTree = "<group>"; };
+		AF2BE3F42CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-11-09 at 1.49.52 AM.jpeg"; sourceTree = "<group>"; };
+		AF2BE3F52CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-11-09 at 1.49.52 AM (1).jpeg"; sourceTree = "<group>"; };
+		AF2BE3F62CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (3).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-11-09 at 1.49.52 AM (3).jpeg"; sourceTree = "<group>"; };
+		AF2BE3F72CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (4).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-11-09 at 1.49.52 AM (4).jpeg"; sourceTree = "<group>"; };
+		AF2BE3FD2CDF52BB00017A59 /* flecha_cont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flecha_cont.png; sourceTree = "<group>"; };
+		AF2BE3FF2CDF535E00017A59 /* ViewControlleropc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlleropc.swift; sourceTree = "<group>"; };
+		AF2BE4012CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg"; sourceTree = "<group>"; };
+		AF2BE4032CDF592500017A59 /* ViewControllercon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllercon.swift; sourceTree = "<group>"; };
+		AF2BE4052CDFDB8700017A59 /* ViewControllermercado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllermercado.swift; sourceTree = "<group>"; };
+		AF2BE4072CDFDBD700017A59 /* ViewControllerescuela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerescuela.swift; sourceTree = "<group>"; };
+		AF2BE4092CDFDC2100017A59 /* ViewControllergranja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllergranja.swift; sourceTree = "<group>"; };
+		AF2BE40B2CDFDCA200017A59 /* ViewControllerbosque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerbosque.swift; sourceTree = "<group>"; };
+		AF2BE40D2CDFDCC900017A59 /* ViewControllerayu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerayu.swift; sourceTree = "<group>"; };
+		AF2BE40F2CDFDE3400017A59 /* ViewControllercasas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllercasas.swift; sourceTree = "<group>"; };
+		AF2BE4112CDFEB6C00017A59 /* ViewControllerarteimagen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerarteimagen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF2BE2E92CDF3EA400017A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2BE2E32CDF3EA400017A59 = {
+			isa = PBXGroup;
+			children = (
+				AF2BE2EE2CDF3EA400017A59 /* Farming_Hearts_beta */,
+				AF2BE2ED2CDF3EA400017A59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF2BE2ED2CDF3EA400017A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF2BE2EC2CDF3EA400017A59 /* Farming_Hearts_beta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2BE2EE2CDF3EA400017A59 /* Farming_Hearts_beta */ = {
+			isa = PBXGroup;
+			children = (
+				AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */,
+				AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */,
+				AF2BE2F32CDF3EA400017A59 /* ViewController.swift */,
+				AF2BE2F52CDF3EA400017A59 /* Main.storyboard */,
+				AF2BE4112CDFEB6C00017A59 /* ViewControllerarteimagen.swift */,
+				AF2BE40F2CDFDE3400017A59 /* ViewControllercasas.swift */,
+				AF2BE40D2CDFDCC900017A59 /* ViewControllerayu.swift */,
+				AF2BE40B2CDFDCA200017A59 /* ViewControllerbosque.swift */,
+				AF2BE4092CDFDC2100017A59 /* ViewControllergranja.swift */,
+				AF2BE4072CDFDBD700017A59 /* ViewControllerescuela.swift */,
+				AF2BE4052CDFDB8700017A59 /* ViewControllermercado.swift */,
+				AF2BE4032CDF592500017A59 /* ViewControllercon.swift */,
+				AF2BE3FF2CDF535E00017A59 /* ViewControlleropc.swift */,
+				AF2BE3EF2CDF434300017A59 /* ViewControllerinicio.swift */,
+				AF2BE3032CDF3EEA00017A59 /* Templates */,
+				AF2BE2F82CDF3EA400017A59 /* Assets.xcassets */,
+				AF2BE2FA2CDF3EA400017A59 /* LaunchScreen.storyboard */,
+				AF2BE2FD2CDF3EA400017A59 /* Info.plist */,
+			);
+			path = Farming_Hearts_beta;
+			sourceTree = "<group>";
+		};
+		AF2BE3032CDF3EEA00017A59 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				AF2BE4012CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg */,
+				AF2BE3FD2CDF52BB00017A59 /* flecha_cont.png */,
+				AF2BE3F52CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (1).jpeg */,
+				AF2BE3F32CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (2).jpeg */,
+				AF2BE3F62CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (3).jpeg */,
+				AF2BE3F72CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (4).jpeg */,
+				AF2BE3F42CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM.jpeg */,
+				AF2BE3F12CDF475A00017A59 /* WhatsApp Image 2024-11-09 at 1.30.49 AM.jpeg */,
+				AF2BE3ED2CDF413300017A59 /* hoja2.png */,
+				AF2BE3042CDF3EEA00017A59 /* Belladonna feliz.png */,
+				AF2BE3052CDF3EEA00017A59 /* Alicia enojada.png */,
+				AF2BE3062CDF3EEA00017A59 /* Rafael Serio.png */,
+				AF2BE3072CDF3EEA00017A59 /* Louise Enojado.png */,
+				AF2BE3082CDF3EEA00017A59 /* Carta Img.png */,
+				AF2BE3092CDF3EEA00017A59 /* Rancho Camino Fondo.png */,
+				AF2BE30A2CDF3EEA00017A59 /* Lago fondo.png */,
+				AF2BE30B2CDF3EEA00017A59 /* Rectangle 12.png */,
+				AF2BE30C2CDF3EEA00017A59 /* Louisa avergonzada.png */,
+				AF2BE30D2CDF3EEA00017A59 /* Belladonna Enojada.png */,
+				AF2BE30E2CDF3EEA00017A59 /* Granja fondo.png */,
+				AF2BE30F2CDF3EEA00017A59 /* Camino Bosque fondo.png */,
+				AF2BE3102CDF3EEA00017A59 /* Alicia triste.png */,
+				AF2BE3112CDF3EEA00017A59 /* Escuela fondo.png */,
+				AF2BE3122CDF3EEA00017A59 /* Estacion Fondo.png */,
+				AF2BE3132CDF3EEA00017A59 /* Abuelo casa fondo.png */,
+				AF2BE3142CDF3EEA00017A59 /* Alicia feliz.png */,
+				AF2BE3152CDF3EEA00017A59 /* Abuelo Feliz.png */,
+				AF2BE3162CDF3EEA00017A59 /* Alicia avergonzada.png */,
+				AF2BE3172CDF3EEA00017A59 /* Inicio.png */,
+				AF2BE3182CDF3EEA00017A59 /* Louise triste.png */,
+				AF2BE3192CDF3EEA00017A59 /* Mercado fondo.png */,
+				AF2BE31A2CDF3EEA00017A59 /* Rectangle 4.png */,
+				AF2BE31B2CDF3EEA00017A59 /* Opciones.png */,
+				AF2BE31C2CDF3EEA00017A59 /* Indigo triste.png */,
+				AF2BE31D2CDF3EEA00017A59 /* Depa Fondo.png */,
+				AF2BE31E2CDF3EEA00017A59 /* TownHall Fondo.png */,
+				AF2BE31F2CDF3EEA00017A59 /* Rafael Triste.png */,
+				AF2BE3202CDF3EEA00017A59 /* Louisa Feliz.png */,
+				AF2BE3212CDF3EEA00017A59 /* Rectangle 6.png */,
+				AF2BE3222CDF3EEA00017A59 /* Rectangle 7.png */,
+				AF2BE3232CDF3EEA00017A59 /* Polygon 1.png */,
+				AF2BE3242CDF3EEA00017A59 /* Louise Avergonzado.png */,
+				AF2BE3252CDF3EEA00017A59 /* FARMING HEARTS.png */,
+				AF2BE3262CDF3EEA00017A59 /* Louisa Enojada.png */,
+				AF2BE3272CDF3EEA00017A59 /* Belladonna Triste.png */,
+				AF2BE3282CDF3EEA00017A59 /* MapaFh 1.png */,
+				AF2BE3292CDF3EEA00017A59 /* Rafael Feliz.png */,
+				AF2BE32A2CDF3EEA00017A59 /* Camion Fondo.png */,
+				AF2BE32B2CDF3EEA00017A59 /* Rafael avergonzado.png */,
+				AF2BE32C2CDF3EEA00017A59 /* Enfermeria fondo.png */,
+				AF2BE32D2CDF3EEA00017A59 /* Rectangle 6-1.png */,
+				AF2BE32E2CDF3EEA00017A59 /* Indigo enojado.png */,
+				AF2BE32F2CDF3EEA00017A59 /* Louisa Triste.png */,
+				AF2BE3302CDF3EEA00017A59 /* Oficina Fondo.png */,
+				AF2BE3312CDF3EEA00017A59 /* Belladonna avergonzada.png */,
+				AF2BE3322CDF3EEA00017A59 /* Rectangle 8.png */,
+				AF2BE3332CDF3EEA00017A59 /* b6b06208d98bcc4e66aef540a11ab00b 1.png */,
+				AF2BE3342CDF3EEA00017A59 /* Abuelo Enojado.png */,
+				AF2BE3352CDF3EEA00017A59 /* Alicia seria.png */,
+				AF2BE3362CDF3EEA00017A59 /* Indigo Feliz.png */,
+				AF2BE3372CDF3EEA00017A59 /* Celular.png */,
+				AF2BE3382CDF3EEA00017A59 /* Rafael enojado.png */,
+				AF2BE3392CDF3EEA00017A59 /* Cuarto fondo.png */,
+				AF2BE33A2CDF3EEA00017A59 /* Alcalde.png */,
+				AF2BE33B2CDF3EEA00017A59 /* Louise Feliz.png */,
+				AF2BE33C2CDF3EEA00017A59 /* image 2.png */,
+				AF2BE33D2CDF3EEA00017A59 /* Indigo Avergonzado.png */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF2BE2EB2CDF3EA400017A59 /* Farming_Hearts_beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2BE3002CDF3EA400017A59 /* Build configuration list for PBXNativeTarget "Farming_Hearts_beta" */;
+			buildPhases = (
+				AF2BE2E82CDF3EA400017A59 /* Sources */,
+				AF2BE2E92CDF3EA400017A59 /* Frameworks */,
+				AF2BE2EA2CDF3EA400017A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Farming_Hearts_beta;
+			productName = Farming_Hearts_beta;
+			productReference = AF2BE2EC2CDF3EA400017A59 /* Farming_Hearts_beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2BE2E42CDF3EA400017A59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AF2BE2EB2CDF3EA400017A59 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AF2BE2E72CDF3EA400017A59 /* Build configuration list for PBXProject "Farming_Hearts_beta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF2BE2E32CDF3EA400017A59;
+			productRefGroup = AF2BE2ED2CDF3EA400017A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF2BE2EB2CDF3EA400017A59 /* Farming_Hearts_beta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF2BE2EA2CDF3EA400017A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2BE3FA2CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (1).jpeg in Resources */,
+				AF2BE3722CDF3EEA00017A59 /* Rafael enojado.png in Resources */,
+				AF2BE3612CDF3EEA00017A59 /* Belladonna Triste.png in Resources */,
+				AF2BE3572CDF3EEA00017A59 /* Depa Fondo.png in Resources */,
+				AF2BE3F82CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (2).jpeg in Resources */,
+				AF2BE3422CDF3EEA00017A59 /* Carta Img.png in Resources */,
+				AF2BE2FC2CDF3EA400017A59 /* LaunchScreen.storyboard in Resources */,
+				AF2BE35B2CDF3EEA00017A59 /* Rectangle 6.png in Resources */,
+				AF2BE34A2CDF3EEA00017A59 /* Alicia triste.png in Resources */,
+				AF2BE34F2CDF3EEA00017A59 /* Abuelo Feliz.png in Resources */,
+				AF2BE34B2CDF3EEA00017A59 /* Escuela fondo.png in Resources */,
+				AF2BE3442CDF3EEA00017A59 /* Lago fondo.png in Resources */,
+				AF2BE3632CDF3EEA00017A59 /* Rafael Feliz.png in Resources */,
+				AF2BE34C2CDF3EEA00017A59 /* Estacion Fondo.png in Resources */,
+				AF2BE3FE2CDF52BB00017A59 /* flecha_cont.png in Resources */,
+				AF2BE3532CDF3EEA00017A59 /* Mercado fondo.png in Resources */,
+				AF2BE3692CDF3EEA00017A59 /* Louisa Triste.png in Resources */,
+				AF2BE3712CDF3EEA00017A59 /* Celular.png in Resources */,
+				AF2BE34D2CDF3EEA00017A59 /* Abuelo casa fondo.png in Resources */,
+				AF2BE35A2CDF3EEA00017A59 /* Louisa Feliz.png in Resources */,
+				AF2BE3522CDF3EEA00017A59 /* Louise triste.png in Resources */,
+				AF2BE3EE2CDF413300017A59 /* hoja2.png in Resources */,
+				AF2BE3FC2CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (4).jpeg in Resources */,
+				AF2BE3502CDF3EEA00017A59 /* Alicia avergonzada.png in Resources */,
+				AF2BE3672CDF3EEA00017A59 /* Rectangle 6-1.png in Resources */,
+				AF2BE3582CDF3EEA00017A59 /* TownHall Fondo.png in Resources */,
+				AF2BE36A2CDF3EEA00017A59 /* Oficina Fondo.png in Resources */,
+				AF2BE3F22CDF475A00017A59 /* WhatsApp Image 2024-11-09 at 1.30.49 AM.jpeg in Resources */,
+				AF2BE3452CDF3EEA00017A59 /* Rectangle 12.png in Resources */,
+				AF2BE3462CDF3EEA00017A59 /* Louisa avergonzada.png in Resources */,
+				AF2BE33E2CDF3EEA00017A59 /* Belladonna feliz.png in Resources */,
+				AF2BE36B2CDF3EEA00017A59 /* Belladonna avergonzada.png in Resources */,
+				AF2BE35C2CDF3EEA00017A59 /* Rectangle 7.png in Resources */,
+				AF2BE4022CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg in Resources */,
+				AF2BE36C2CDF3EEA00017A59 /* Rectangle 8.png in Resources */,
+				AF2BE3482CDF3EEA00017A59 /* Granja fondo.png in Resources */,
+				AF2BE3602CDF3EEA00017A59 /* Louisa Enojada.png in Resources */,
+				AF2BE3662CDF3EEA00017A59 /* Enfermeria fondo.png in Resources */,
+				AF2BE3542CDF3EEA00017A59 /* Rectangle 4.png in Resources */,
+				AF2BE3642CDF3EEA00017A59 /* Camion Fondo.png in Resources */,
+				AF2BE36F2CDF3EEA00017A59 /* Alicia seria.png in Resources */,
+				AF2BE33F2CDF3EEA00017A59 /* Alicia enojada.png in Resources */,
+				AF2BE3762CDF3EEA00017A59 /* image 2.png in Resources */,
+				AF2BE35E2CDF3EEA00017A59 /* Louise Avergonzado.png in Resources */,
+				AF2BE34E2CDF3EEA00017A59 /* Alicia feliz.png in Resources */,
+				AF2BE3592CDF3EEA00017A59 /* Rafael Triste.png in Resources */,
+				AF2BE3732CDF3EEA00017A59 /* Cuarto fondo.png in Resources */,
+				AF2BE2F92CDF3EA400017A59 /* Assets.xcassets in Resources */,
+				AF2BE3402CDF3EEA00017A59 /* Rafael Serio.png in Resources */,
+				AF2BE3FB2CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (3).jpeg in Resources */,
+				AF2BE2F72CDF3EA400017A59 /* Main.storyboard in Resources */,
+				AF2BE3562CDF3EEA00017A59 /* Indigo triste.png in Resources */,
+				AF2BE3652CDF3EEA00017A59 /* Rafael avergonzado.png in Resources */,
+				AF2BE3512CDF3EEA00017A59 /* Inicio.png in Resources */,
+				AF2BE35D2CDF3EEA00017A59 /* Polygon 1.png in Resources */,
+				AF2BE3552CDF3EEA00017A59 /* Opciones.png in Resources */,
+				AF2BE35F2CDF3EEA00017A59 /* FARMING HEARTS.png in Resources */,
+				AF2BE3772CDF3EEA00017A59 /* Indigo Avergonzado.png in Resources */,
+				AF2BE3F92CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM.jpeg in Resources */,
+				AF2BE3492CDF3EEA00017A59 /* Camino Bosque fondo.png in Resources */,
+				AF2BE3682CDF3EEA00017A59 /* Indigo enojado.png in Resources */,
+				AF2BE3742CDF3EEA00017A59 /* Alcalde.png in Resources */,
+				AF2BE3472CDF3EEA00017A59 /* Belladonna Enojada.png in Resources */,
+				AF2BE36D2CDF3EEA00017A59 /* b6b06208d98bcc4e66aef540a11ab00b 1.png in Resources */,
+				AF2BE3622CDF3EEA00017A59 /* MapaFh 1.png in Resources */,
+				AF2BE36E2CDF3EEA00017A59 /* Abuelo Enojado.png in Resources */,
+				AF2BE3702CDF3EEA00017A59 /* Indigo Feliz.png in Resources */,
+				AF2BE3432CDF3EEA00017A59 /* Rancho Camino Fondo.png in Resources */,
+				AF2BE3412CDF3EEA00017A59 /* Louise Enojado.png in Resources */,
+				AF2BE3752CDF3EEA00017A59 /* Louise Feliz.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF2BE2E82CDF3EA400017A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2BE2F42CDF3EA400017A59 /* ViewController.swift in Sources */,
+				AF2BE40E2CDFDCC900017A59 /* ViewControllerayu.swift in Sources */,
+				AF2BE4102CDFDE3400017A59 /* ViewControllercasas.swift in Sources */,
+				AF2BE40C2CDFDCA200017A59 /* ViewControllerbosque.swift in Sources */,
+				AF2BE4002CDF535E00017A59 /* ViewControlleropc.swift in Sources */,
+				AF2BE2F02CDF3EA400017A59 /* AppDelegate.swift in Sources */,
+				AF2BE4122CDFEB6C00017A59 /* ViewControllerarteimagen.swift in Sources */,
+				AF2BE4042CDF592500017A59 /* ViewControllercon.swift in Sources */,
+				AF2BE2F22CDF3EA400017A59 /* SceneDelegate.swift in Sources */,
+				AF2BE40A2CDFDC2100017A59 /* ViewControllergranja.swift in Sources */,
+				AF2BE4062CDFDB8700017A59 /* ViewControllermercado.swift in Sources */,
+				AF2BE3F02CDF434300017A59 /* ViewControllerinicio.swift in Sources */,
+				AF2BE4082CDFDBD700017A59 /* ViewControllerescuela.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF2BE2F52CDF3EA400017A59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2BE2F62CDF3EA400017A59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF2BE2FA2CDF3EA400017A59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2BE2FB2CDF3EA400017A59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF2BE2FE2CDF3EA400017A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF2BE2FF2CDF3EA400017A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF2BE3012CDF3EA400017A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Farming_Hearts_beta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Farming-Hearts-beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF2BE3022CDF3EA400017A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Farming_Hearts_beta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Farming-Hearts-beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF2BE2E72CDF3EA400017A59 /* Build configuration list for PBXProject "Farming_Hearts_beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2BE2FE2CDF3EA400017A59 /* Debug */,
+				AF2BE2FF2CDF3EA400017A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2BE3002CDF3EA400017A59 /* Build configuration list for PBXNativeTarget "Farming_Hearts_beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2BE3012CDF3EA400017A59 /* Debug */,
+				AF2BE3022CDF3EA400017A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF2BE2E42CDF3EA400017A59 /* Project object */;
+}
