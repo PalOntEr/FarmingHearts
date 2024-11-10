@@ -1,0 +1,358 @@
+{
+    "Jefe": {
+        "dialogs": [
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Lo sentimos mucho pero tenemos que recortar el personal y ya no te requerimos en esta empresa."
+            }
+        ]
+    },
+    "Abuelo": {
+        "dialogs": [
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Deberías darte una vuelta por todo el pueblo, hay varias personas que seguro te caerían bien."
+            }
+        ]
+    },
+    "Rafael": {
+        "dialogs": [
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Sigo caminando hasta ver un edificio a lo lejos."
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Parece ser una escuela, y ahora hay unos niños afuera hablando con un hombre, ¿Será el maestro?"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Comienzo a acercarme por curiosidad y veo a los niños riéndoe y divirtiéndose."
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "El hombre te ve de lejos y sonríe saludándote."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "¡Hey!, Tú eres el nuevo, ¿no? El nieto del señor Leo."
+            },
+            {
+                "response": 2,
+                "expression": 0,
+                "text": "Te sorprende un poco lo directo pero al mismo tiempo amigable que parece ser."
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Ah, sí, ese soy yo. Acabo de llegar aquí hoy. Ha sido un gran shock comparado con lo que estoy acostumbrado."
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Ah, me imagino. ¿La vida citadina te trata bien?"
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "La verdad, no… acabo de perder mi trabajo de años."
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Ya no pude costear mi vida allá y sentí que este era el único lugar al que podía huir."
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Admito que no fue mi primera opción pero mi abuelo también necesita ayuda…"
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Esos niños que estaban aquí parecen quererte mucho. ¿Eres el maestro del pueblo?"
+            },
+            {
+                "response": 0,
+                "expression": 4,
+                "text": "¡Así es! También los quiero mucho a ellos."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Es un reto enseñarle a los niños todo lo que necesitan saber estando yo solo y sin muchos recursos…"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Pero todo vale la pena cuando aprenden y también son felices."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Realmente solo quiero asegurarme de que tengan un gran futuro… aunque aquí no hay muchas posibilidades."
+            },
+            {
+                "response": 1,
+                "expression": 2,
+                "text": "¿Es difícil aquí en el pueblo?"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Sí, todos los demás maestros que estaban aquí en el pueblo se fueron por mejores oportunidades."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "y los entiendo porque aquí la paga no es muy buena… es difícil tan solo mantener funcionando la escuela."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Pero yo no podría irme, me sentiría muy mal dejando a mis niños."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Dejandolos sin oportunidades de aprender mientras se quedan aquí."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Es una gran carga, y muchos creen que simplemente no vale la pena, pero yo sí."
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Quiero pensar que estoy haciendo un cambio positivo."
+            },
+            {
+                "response": 1,
+                "expression": 4,
+                "text": "A mí me suena que sí. Estás haciendo todo lo que puedes!"
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "En tu situación creo que muchas otras personas se hubieran rendido. O al menos, sé que yo sí…"
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Suelo rendirme cuando las cosas se ponen complicadas. El hecho de que tú seas diferente te hace admirable."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "¡Gracias! Muchas personas creen que solo soy un tonto por no abandonar esto e irme a la ciudad."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Pero a pesar de lo difícil que es, me sigue haciendo feliz."
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Me alegra que tus alumnos tengan a alguien como tú. Pero por ahora creo que tengo que irme."
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Mi abuelo necesitaba unas cosas y aún no me acostumbro a la vida del campo…"
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Tranquilo, te acostumbrarás. Puede que no sea tan sofisticado como la ciudad."
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Pero estoy seguro de que serás muy bueno ayudando a tu abuelo."
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Muchas gracias, ehh… creo que nunca te pregunté tu nombre, perdón por ser tan despistado."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "No te apures, a todos nos pasa. Soy Rafael, seguro nos vemos de nuevo, ¡suerte!"
+            },
+            {
+                "response": 2,
+                "expression": 0,
+                "text": "Me alejo de la pequeña escuela y a lo lejos sigue viendo al profesor."
+            },
+            {
+                "response": 2,
+                "expression": 0,
+                "text": "Aunque es pequeña, parece estar lo suficientemente bien cuidada… ¿será todo gracias a ese tipo?"
+            },
+            {
+                "response": 2,
+                "expression": 0,
+                "text": "Es un tipo muy amable… quizá puedo aprender más cosas de las que creía de las personas de este pueblo."
+            }
+        ]
+    },
+    "Belladonna": {
+        "dialogs": [
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Después de recorrer Villaflores por un rato, descubro que algunos edificios estan en mal estado o sin terminar."
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Casas donde la pintura se fue hace mucho tiempo, baches sin arreglar, paredes caidas..."
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "¿Qué a pasado en todos estos años que no visite Villaflores?"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Me hacerco a una vieja casa, y parece que alguien a estado intentnado arreglarla, pero sin mucho exito..."
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "¡Hey! ¿Quién eres? ¿Qué crees que haces en una zona de construcción sin el equipo adecuado chico?"
+            },
+            {
+                "response": 1,
+                "expression": 3,
+                "text": "¿Qu-quién? ¿Yo? ¡Lo siento! No tenía idea que fuera... espera, tu tampoco tienes equipo de construcción."
+            },
+            {
+                "response": 0,
+                "expression": 4,
+                "text": "Ah, bueno, es que desgaste mi anterior equipo y no tenemos de repuesto ni manera de traer nuevo..."
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "Espera, ¡Eso no es de tu incumbencia! No es bueno que estes tan cerca de una zona de construcción."
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "¿Quién eres? ¿Eres nuevo por aquí? Jamas te habia visto en Villaflores antes."
+            },
+            {
+                "response": 1,
+                "expression": 3,
+                "text": "Soy el nieto de Leonardo, tuve ciertos problemas en la ciudad, asi que me quedare un tiempo ayudandolo."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "¿El nieto de Leo? ¡Vaya! Pero si he escuchado mucho de ti, aunque nunca te habia visto claro."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Cuando venias a visitar a tu abuelo de pequeño yo ya era una adolescente que se había ido a la ciudad."
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Justo vengo de la ciudad, y de unas experiencias no muy gratas con mi anterior empleo."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Bueno, somos dos chico, la ciudad termino no siendo lo que buscaba."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Así que decidí regresar a apoyar a mi pueblo natal con lo que aprendí en la carrera de arquitectura."
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "¡Eso es genial! Aun no tengo una idea clara de en que puedo ayudar aquí, pero creo eso el tiempo lo dira."
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Mientras hablabamos, seguía notando las casas en “reparación”, notando que no había muchos materiales."
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Perdón por preguntar esto pero ¿porqué hay tantas casas en mal estado o dañadas? No solía ser así."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "*Susprio* La verdad me gustaría decir que no es normal, pero Villaflores ha estado asi por un tiempo."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Muchas personas se han ido buscando mejores oportunidades, abandonando hogares y construcciones."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Y por lo mismo ahora hay poca mano de obra que quiera apoyar en las reparaciones."
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Aunque no los culpo... yo hice lo mismo hace unos años."
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "Ademas, se ha vuelto muchisimo mas complicado conseguir materiales o equipo para las reparaciones."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Pero ¡Hey! Eso no va a desanimarme, me muevo con lo que pueda y saco el maximo provecho a lo que tengo."
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Lamento escuchar eso... hay muchas cosas que pueden mejorar por aquí."
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Pero me alegra ver que aun hay personas que lo dan todo de si para mejorar las cosas, lamento interrumpirte."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "No te preocupes chico, lamento asustarte hace un momento, soy algo estricta con mi trabajo."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "¡Y gracias! Bienvendio de vuelta y saluda al viejo Leo de mi parte."
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Y de paso preguntale si tiene algun par de manos que les guste ayudarme de paso, hacen falta aquí, ¡adios!"
+            }
+        ]
+    }
+}
