@@ -43,6 +43,10 @@ class ViewControllerConversation: UIViewController {
                 
                 Name.text = "Oliver";
                 
+                Character.image = UIImage(named: "\(self.curChar ?? "") \(dialogItem.expression)")
+                
+                Background.image = UIImage(named: "\(dialogItem.background)")
+                
                 if(dialogItem.response == Response.character){
                     Name.text = curChar;
                     NameBox.image = UIImage(named: "PinkBox");
