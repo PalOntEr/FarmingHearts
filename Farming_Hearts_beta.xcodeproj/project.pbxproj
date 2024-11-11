@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		915DA0AA2CE1775A003EB5B9 /* dialogs.json in Resources */ = {isa = PBXBuildFile; fileRef = 915DA0A92CE1775A003EB5B9 /* dialogs.json */; };
 		915DA0BB2CE17920003EB5B9 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DA0BA2CE17920003EB5B9 /* Dialog.swift */; };
+		915DA0C12CE1B4E3003EB5B9 /* BlueBox 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 915DA0C02CE1B4E3003EB5B9 /* BlueBox 2.png */; };
+		915DA0C32CE1B599003EB5B9 /* House.png in Resources */ = {isa = PBXBuildFile; fileRef = 915DA0C22CE1B599003EB5B9 /* House.png */; };
 		AF2BE2F02CDF3EA400017A59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */; };
 		AF2BE2F22CDF3EA400017A59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */; };
 		AF2BE2F42CDF3EA400017A59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE2F32CDF3EA400017A59 /* ViewController.swift */; };
@@ -37,7 +39,7 @@
 		AF2BE3512CDF3EEA00017A59 /* Inicio.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3172CDF3EEA00017A59 /* Inicio.png */; };
 		AF2BE3522CDF3EEA00017A59 /* Louise triste.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3182CDF3EEA00017A59 /* Louise triste.png */; };
 		AF2BE3532CDF3EEA00017A59 /* Mercado fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE3192CDF3EEA00017A59 /* Mercado fondo.png */; };
-		AF2BE3542CDF3EEA00017A59 /* Rectangle 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31A2CDF3EEA00017A59 /* Rectangle 4.png */; };
+		AF2BE3542CDF3EEA00017A59 /* PinkBox.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31A2CDF3EEA00017A59 /* PinkBox.png */; };
 		AF2BE3552CDF3EEA00017A59 /* Opciones.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31B2CDF3EEA00017A59 /* Opciones.png */; };
 		AF2BE3562CDF3EEA00017A59 /* Indigo triste.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31C2CDF3EEA00017A59 /* Indigo triste.png */; };
 		AF2BE3572CDF3EEA00017A59 /* Depa Fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE31D2CDF3EEA00017A59 /* Depa Fondo.png */; };
@@ -92,6 +94,8 @@
 /* Begin PBXFileReference section */
 		915DA0A92CE1775A003EB5B9 /* dialogs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dialogs.json; sourceTree = "<group>"; };
 		915DA0BA2CE17920003EB5B9 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		915DA0C02CE1B4E3003EB5B9 /* BlueBox 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlueBox 2.png"; sourceTree = "<group>"; };
+		915DA0C22CE1B599003EB5B9 /* House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House.png; sourceTree = "<group>"; };
 		AF2BE2EC2CDF3EA400017A59 /* Farming_Hearts_beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farming_Hearts_beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,7 +126,7 @@
 		AF2BE3172CDF3EEA00017A59 /* Inicio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inicio.png; sourceTree = "<group>"; };
 		AF2BE3182CDF3EEA00017A59 /* Louise triste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Louise triste.png"; sourceTree = "<group>"; };
 		AF2BE3192CDF3EEA00017A59 /* Mercado fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mercado fondo.png"; sourceTree = "<group>"; };
-		AF2BE31A2CDF3EEA00017A59 /* Rectangle 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 4.png"; sourceTree = "<group>"; };
+		AF2BE31A2CDF3EEA00017A59 /* PinkBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkBox.png; sourceTree = "<group>"; };
 		AF2BE31B2CDF3EEA00017A59 /* Opciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opciones.png; sourceTree = "<group>"; };
 		AF2BE31C2CDF3EEA00017A59 /* Indigo triste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indigo triste.png"; sourceTree = "<group>"; };
 		AF2BE31D2CDF3EEA00017A59 /* Depa Fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Depa Fondo.png"; sourceTree = "<group>"; };
@@ -226,73 +230,75 @@
 		AF2BE3032CDF3EEA00017A59 /* Templates */ = {
 			isa = PBXGroup;
 			children = (
-				AF2BE4012CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg */,
+				915DA0C22CE1B599003EB5B9 /* House.png */,
+				915DA0C02CE1B4E3003EB5B9 /* BlueBox 2.png */,
+				AF2BE3132CDF3EEA00017A59 /* Abuelo casa fondo.png */,
+				AF2BE3342CDF3EEA00017A59 /* Abuelo Enojado.png */,
+				AF2BE3152CDF3EEA00017A59 /* Abuelo Feliz.png */,
+				AF2BE33A2CDF3EEA00017A59 /* Alcalde.png */,
+				AF2BE3162CDF3EEA00017A59 /* Alicia avergonzada.png */,
+				AF2BE3052CDF3EEA00017A59 /* Alicia enojada.png */,
+				AF2BE3142CDF3EEA00017A59 /* Alicia feliz.png */,
+				AF2BE3352CDF3EEA00017A59 /* Alicia seria.png */,
+				AF2BE3102CDF3EEA00017A59 /* Alicia triste.png */,
+				AF2BE3332CDF3EEA00017A59 /* b6b06208d98bcc4e66aef540a11ab00b 1.png */,
+				AF2BE3312CDF3EEA00017A59 /* Belladonna avergonzada.png */,
+				AF2BE30D2CDF3EEA00017A59 /* Belladonna Enojada.png */,
+				AF2BE3042CDF3EEA00017A59 /* Belladonna feliz.png */,
+				AF2BE3272CDF3EEA00017A59 /* Belladonna Triste.png */,
+				AF2BE30F2CDF3EEA00017A59 /* Camino Bosque fondo.png */,
+				AF2BE32A2CDF3EEA00017A59 /* Camion Fondo.png */,
+				AF2BE3082CDF3EEA00017A59 /* Carta Img.png */,
+				AF2BE3372CDF3EEA00017A59 /* Celular.png */,
+				AF2BE3392CDF3EEA00017A59 /* Cuarto fondo.png */,
+				AF2BE31D2CDF3EEA00017A59 /* Depa Fondo.png */,
+				AF2BE32C2CDF3EEA00017A59 /* Enfermeria fondo.png */,
+				AF2BE3112CDF3EEA00017A59 /* Escuela fondo.png */,
+				AF2BE3122CDF3EEA00017A59 /* Estacion Fondo.png */,
+				AF2BE3252CDF3EEA00017A59 /* FARMING HEARTS.png */,
 				AF2BE3FD2CDF52BB00017A59 /* flecha_cont.png */,
+				AF2BE30E2CDF3EEA00017A59 /* Granja fondo.png */,
+				AF2BE3ED2CDF413300017A59 /* hoja2.png */,
+				AF2BE33C2CDF3EEA00017A59 /* image 2.png */,
+				AF2BE33D2CDF3EEA00017A59 /* Indigo Avergonzado.png */,
+				AF2BE32E2CDF3EEA00017A59 /* Indigo enojado.png */,
+				AF2BE3362CDF3EEA00017A59 /* Indigo Feliz.png */,
+				AF2BE31C2CDF3EEA00017A59 /* Indigo triste.png */,
+				AF2BE3172CDF3EEA00017A59 /* Inicio.png */,
+				AF2BE30A2CDF3EEA00017A59 /* Lago fondo.png */,
+				AF2BE30C2CDF3EEA00017A59 /* Louisa avergonzada.png */,
+				AF2BE3262CDF3EEA00017A59 /* Louisa Enojada.png */,
+				AF2BE3202CDF3EEA00017A59 /* Louisa Feliz.png */,
+				AF2BE32F2CDF3EEA00017A59 /* Louisa Triste.png */,
+				AF2BE3242CDF3EEA00017A59 /* Louise Avergonzado.png */,
+				AF2BE3072CDF3EEA00017A59 /* Louise Enojado.png */,
+				AF2BE33B2CDF3EEA00017A59 /* Louise Feliz.png */,
+				AF2BE3182CDF3EEA00017A59 /* Louise triste.png */,
+				AF2BE3282CDF3EEA00017A59 /* MapaFh 1.png */,
+				AF2BE3192CDF3EEA00017A59 /* Mercado fondo.png */,
+				AF2BE3302CDF3EEA00017A59 /* Oficina Fondo.png */,
+				AF2BE31B2CDF3EEA00017A59 /* Opciones.png */,
+				AF2BE3232CDF3EEA00017A59 /* Polygon 1.png */,
+				AF2BE32B2CDF3EEA00017A59 /* Rafael avergonzado.png */,
+				AF2BE3382CDF3EEA00017A59 /* Rafael enojado.png */,
+				AF2BE3292CDF3EEA00017A59 /* Rafael Feliz.png */,
+				AF2BE3062CDF3EEA00017A59 /* Rafael Serio.png */,
+				AF2BE31F2CDF3EEA00017A59 /* Rafael Triste.png */,
+				AF2BE3092CDF3EEA00017A59 /* Rancho Camino Fondo.png */,
+				AF2BE31A2CDF3EEA00017A59 /* PinkBox.png */,
+				AF2BE3212CDF3EEA00017A59 /* Rectangle 6.png */,
+				AF2BE32D2CDF3EEA00017A59 /* Rectangle 6-1.png */,
+				AF2BE3222CDF3EEA00017A59 /* Rectangle 7.png */,
+				AF2BE3322CDF3EEA00017A59 /* Rectangle 8.png */,
+				AF2BE30B2CDF3EEA00017A59 /* Rectangle 12.png */,
+				AF2BE31E2CDF3EEA00017A59 /* TownHall Fondo.png */,
+				AF2BE3F12CDF475A00017A59 /* WhatsApp Image 2024-11-09 at 1.30.49 AM.jpeg */,
+				AF2BE3F42CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM.jpeg */,
 				AF2BE3F52CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (1).jpeg */,
 				AF2BE3F32CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (2).jpeg */,
 				AF2BE3F62CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (3).jpeg */,
 				AF2BE3F72CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM (4).jpeg */,
-				AF2BE3F42CDF4BF500017A59 /* WhatsApp Image 2024-11-09 at 1.49.52 AM.jpeg */,
-				AF2BE3F12CDF475A00017A59 /* WhatsApp Image 2024-11-09 at 1.30.49 AM.jpeg */,
-				AF2BE3ED2CDF413300017A59 /* hoja2.png */,
-				AF2BE3042CDF3EEA00017A59 /* Belladonna feliz.png */,
-				AF2BE3052CDF3EEA00017A59 /* Alicia enojada.png */,
-				AF2BE3062CDF3EEA00017A59 /* Rafael Serio.png */,
-				AF2BE3072CDF3EEA00017A59 /* Louise Enojado.png */,
-				AF2BE3082CDF3EEA00017A59 /* Carta Img.png */,
-				AF2BE3092CDF3EEA00017A59 /* Rancho Camino Fondo.png */,
-				AF2BE30A2CDF3EEA00017A59 /* Lago fondo.png */,
-				AF2BE30B2CDF3EEA00017A59 /* Rectangle 12.png */,
-				AF2BE30C2CDF3EEA00017A59 /* Louisa avergonzada.png */,
-				AF2BE30D2CDF3EEA00017A59 /* Belladonna Enojada.png */,
-				AF2BE30E2CDF3EEA00017A59 /* Granja fondo.png */,
-				AF2BE30F2CDF3EEA00017A59 /* Camino Bosque fondo.png */,
-				AF2BE3102CDF3EEA00017A59 /* Alicia triste.png */,
-				AF2BE3112CDF3EEA00017A59 /* Escuela fondo.png */,
-				AF2BE3122CDF3EEA00017A59 /* Estacion Fondo.png */,
-				AF2BE3132CDF3EEA00017A59 /* Abuelo casa fondo.png */,
-				AF2BE3142CDF3EEA00017A59 /* Alicia feliz.png */,
-				AF2BE3152CDF3EEA00017A59 /* Abuelo Feliz.png */,
-				AF2BE3162CDF3EEA00017A59 /* Alicia avergonzada.png */,
-				AF2BE3172CDF3EEA00017A59 /* Inicio.png */,
-				AF2BE3182CDF3EEA00017A59 /* Louise triste.png */,
-				AF2BE3192CDF3EEA00017A59 /* Mercado fondo.png */,
-				AF2BE31A2CDF3EEA00017A59 /* Rectangle 4.png */,
-				AF2BE31B2CDF3EEA00017A59 /* Opciones.png */,
-				AF2BE31C2CDF3EEA00017A59 /* Indigo triste.png */,
-				AF2BE31D2CDF3EEA00017A59 /* Depa Fondo.png */,
-				AF2BE31E2CDF3EEA00017A59 /* TownHall Fondo.png */,
-				AF2BE31F2CDF3EEA00017A59 /* Rafael Triste.png */,
-				AF2BE3202CDF3EEA00017A59 /* Louisa Feliz.png */,
-				AF2BE3212CDF3EEA00017A59 /* Rectangle 6.png */,
-				AF2BE3222CDF3EEA00017A59 /* Rectangle 7.png */,
-				AF2BE3232CDF3EEA00017A59 /* Polygon 1.png */,
-				AF2BE3242CDF3EEA00017A59 /* Louise Avergonzado.png */,
-				AF2BE3252CDF3EEA00017A59 /* FARMING HEARTS.png */,
-				AF2BE3262CDF3EEA00017A59 /* Louisa Enojada.png */,
-				AF2BE3272CDF3EEA00017A59 /* Belladonna Triste.png */,
-				AF2BE3282CDF3EEA00017A59 /* MapaFh 1.png */,
-				AF2BE3292CDF3EEA00017A59 /* Rafael Feliz.png */,
-				AF2BE32A2CDF3EEA00017A59 /* Camion Fondo.png */,
-				AF2BE32B2CDF3EEA00017A59 /* Rafael avergonzado.png */,
-				AF2BE32C2CDF3EEA00017A59 /* Enfermeria fondo.png */,
-				AF2BE32D2CDF3EEA00017A59 /* Rectangle 6-1.png */,
-				AF2BE32E2CDF3EEA00017A59 /* Indigo enojado.png */,
-				AF2BE32F2CDF3EEA00017A59 /* Louisa Triste.png */,
-				AF2BE3302CDF3EEA00017A59 /* Oficina Fondo.png */,
-				AF2BE3312CDF3EEA00017A59 /* Belladonna avergonzada.png */,
-				AF2BE3322CDF3EEA00017A59 /* Rectangle 8.png */,
-				AF2BE3332CDF3EEA00017A59 /* b6b06208d98bcc4e66aef540a11ab00b 1.png */,
-				AF2BE3342CDF3EEA00017A59 /* Abuelo Enojado.png */,
-				AF2BE3352CDF3EEA00017A59 /* Alicia seria.png */,
-				AF2BE3362CDF3EEA00017A59 /* Indigo Feliz.png */,
-				AF2BE3372CDF3EEA00017A59 /* Celular.png */,
-				AF2BE3382CDF3EEA00017A59 /* Rafael enojado.png */,
-				AF2BE3392CDF3EEA00017A59 /* Cuarto fondo.png */,
-				AF2BE33A2CDF3EEA00017A59 /* Alcalde.png */,
-				AF2BE33B2CDF3EEA00017A59 /* Louise Feliz.png */,
-				AF2BE33C2CDF3EEA00017A59 /* image 2.png */,
-				AF2BE33D2CDF3EEA00017A59 /* Indigo Avergonzado.png */,
+				AF2BE4012CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg */,
 			);
 			path = Templates;
 			sourceTree = "<group>";
@@ -394,10 +400,12 @@
 				AF2BE3482CDF3EEA00017A59 /* Granja fondo.png in Resources */,
 				AF2BE3602CDF3EEA00017A59 /* Louisa Enojada.png in Resources */,
 				AF2BE3662CDF3EEA00017A59 /* Enfermeria fondo.png in Resources */,
-				AF2BE3542CDF3EEA00017A59 /* Rectangle 4.png in Resources */,
+				AF2BE3542CDF3EEA00017A59 /* PinkBox.png in Resources */,
+				915DA0C32CE1B599003EB5B9 /* House.png in Resources */,
 				AF2BE3642CDF3EEA00017A59 /* Camion Fondo.png in Resources */,
 				AF2BE36F2CDF3EEA00017A59 /* Alicia seria.png in Resources */,
 				AF2BE33F2CDF3EEA00017A59 /* Alicia enojada.png in Resources */,
+				915DA0C12CE1B4E3003EB5B9 /* BlueBox 2.png in Resources */,
 				AF2BE3762CDF3EEA00017A59 /* image 2.png in Resources */,
 				AF2BE35E2CDF3EEA00017A59 /* Louise Avergonzado.png in Resources */,
 				AF2BE34E2CDF3EEA00017A59 /* Alicia feliz.png in Resources */,
