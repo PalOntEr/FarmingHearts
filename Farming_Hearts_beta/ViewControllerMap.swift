@@ -44,7 +44,7 @@ class ViewControllerMap: UIViewController {
         UserDefaults.standard.set("Alicia", forKey: "currentCharacter")
     }
     @IBAction func louises(_ sender: Any) {
-        UserDefaults.standard.set("Louise", forKey: "currentCharacter")
+        UserDefaults.standard.set("Louisa", forKey: "currentCharacter")
     }
     
 }

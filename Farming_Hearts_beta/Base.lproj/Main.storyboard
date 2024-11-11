@@ -21,7 +21,7 @@
                                 <rect key="frame" x="-5" y="-30" width="862" height="452"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hoja2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OvS-T8-Lf5">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hoja2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OvS-T8-Lf5">
                                 <rect key="frame" x="110" y="196" width="215" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
@@ -46,7 +46,7 @@
                                     <segue destination="zb0-KW-jOE" kind="presentation" modalPresentationStyle="fullScreen" id="g73-j1-fNN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SsO-mL-kb2">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SsO-mL-kb2">
                                 <rect key="frame" x="121" y="196" width="192" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -55,7 +55,7 @@
                                     <segue destination="Chq-rW-071" kind="presentation" modalPresentationStyle="fullScreen" id="D4d-QQ-IUp"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Opciones.png" translatesAutoresizingMaskIntoConstraints="NO" id="g3D-9t-Xca">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Opciones.png" translatesAutoresizingMaskIntoConstraints="NO" id="g3D-9t-Xca">
                                 <rect key="frame" x="133" y="284" width="169" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
@@ -497,19 +497,30 @@
                                 <rect key="frame" x="554" y="131" width="70" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 8.png" translatesAutoresizingMaskIntoConstraints="NO" id="0bD-47-EWn">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEt-ll-8Fg" userLabel="AmbientBtn">
                                 <rect key="frame" x="554" y="200" width="70" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="Rectangle 8.png"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="AmbientBtn:" destination="Chq-rW-071" eventType="touchUpInside" id="Dep-k7-2Gv"/>
+                                    <action selector="stopBkgMusic:" destination="Chq-rW-071" eventType="touchDown" id="YNy-IH-l87"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tu5-gb-NVv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="D0g-B3-oiL"/>
+                    <connections>
+                        <outlet property="AmbientBtn" destination="WEt-ll-8Fg" id="C9o-JT-UF5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3i-iE-HY0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-49" y="836"/>
+            <point key="canvasLocation" x="-49.295774647887328" y="835.87786259541986"/>
         </scene>
         <!--Conversation-->
         <scene sceneID="LAI-jE-arb">
@@ -604,7 +615,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="DAO-iq-0h0"/>
-        <segue reference="Qbq-Bj-e9X"/>
+        <segue reference="g73-j1-fNN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Alicia" width="1186" height="1040"/>

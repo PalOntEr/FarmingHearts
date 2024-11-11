@@ -89,6 +89,7 @@
 		AF2BE4042CDF592500017A59 /* ViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4032CDF592500017A59 /* ViewControllerMap.swift */; };
 		AF2BE4122CDFEB6C00017A59 /* ViewControllerarteimagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4112CDFEB6C00017A59 /* ViewControllerarteimagen.swift */; };
 		E55840612CE181E3007EDFD7 /* ViewControllerConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55840602CE181E3007EDFD7 /* ViewControllerConversation.swift */; };
+		E5976CF52CE1E8BA00906FAC /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5976CF42CE1E8AE00906FAC /* AudioManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,6 +177,7 @@
 		AF2BE4032CDF592500017A59 /* ViewControllerMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMap.swift; sourceTree = "<group>"; };
 		AF2BE4112CDFEB6C00017A59 /* ViewControllerarteimagen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerarteimagen.swift; sourceTree = "<group>"; };
 		E55840602CE181E3007EDFD7 /* ViewControllerConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerConversation.swift; sourceTree = "<group>"; };
+		E5976CF42CE1E8AE00906FAC /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 				915DA0A92CE1775A003EB5B9 /* dialogs.json */,
 				AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */,
 				AF2BE2F32CDF3EA400017A59 /* ViewController.swift */,
+				E5976CF42CE1E8AE00906FAC /* AudioManager.swift */,
 				E55840602CE181E3007EDFD7 /* ViewControllerConversation.swift */,
 				AF2BE2F52CDF3EA400017A59 /* Main.storyboard */,
 				AF2BE4112CDFEB6C00017A59 /* ViewControllerarteimagen.swift */,
@@ -452,6 +455,7 @@
 				AF2BE4042CDF592500017A59 /* ViewControllerMap.swift in Sources */,
 				AF2BE2F22CDF3EA400017A59 /* SceneDelegate.swift in Sources */,
 				915DA0BB2CE17920003EB5B9 /* Dialog.swift in Sources */,
+				E5976CF52CE1E8BA00906FAC /* AudioManager.swift in Sources */,
 				AF2BE3F02CDF434300017A59 /* ViewControllerinicio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
