@@ -83,13 +83,8 @@
 		AF2BE4002CDF535E00017A59 /* ViewControlleropc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE3FF2CDF535E00017A59 /* ViewControlleropc.swift */; };
 		AF2BE4022CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF2BE4012CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg */; };
 		AF2BE4042CDF592500017A59 /* ViewControllercon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4032CDF592500017A59 /* ViewControllercon.swift */; };
-		AF2BE4062CDFDB8700017A59 /* ViewControllermercado.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4052CDFDB8700017A59 /* ViewControllermercado.swift */; };
-		AF2BE4082CDFDBD700017A59 /* ViewControllerescuela.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4072CDFDBD700017A59 /* ViewControllerescuela.swift */; };
-		AF2BE40A2CDFDC2100017A59 /* ViewControllergranja.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4092CDFDC2100017A59 /* ViewControllergranja.swift */; };
-		AF2BE40C2CDFDCA200017A59 /* ViewControllerbosque.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE40B2CDFDCA200017A59 /* ViewControllerbosque.swift */; };
-		AF2BE40E2CDFDCC900017A59 /* ViewControllerayu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE40D2CDFDCC900017A59 /* ViewControllerayu.swift */; };
-		AF2BE4102CDFDE3400017A59 /* ViewControllercasas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE40F2CDFDE3400017A59 /* ViewControllercasas.swift */; };
 		AF2BE4122CDFEB6C00017A59 /* ViewControllerarteimagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2BE4112CDFEB6C00017A59 /* ViewControllerarteimagen.swift */; };
+		E55840612CE181E3007EDFD7 /* ViewControllerConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55840602CE181E3007EDFD7 /* ViewControllerConversation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,13 +166,8 @@
 		AF2BE3FF2CDF535E00017A59 /* ViewControlleropc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlleropc.swift; sourceTree = "<group>"; };
 		AF2BE4012CDF554600017A59 /* WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-11-09 at 2.30.14 AM.jpeg"; sourceTree = "<group>"; };
 		AF2BE4032CDF592500017A59 /* ViewControllercon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllercon.swift; sourceTree = "<group>"; };
-		AF2BE4052CDFDB8700017A59 /* ViewControllermercado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllermercado.swift; sourceTree = "<group>"; };
-		AF2BE4072CDFDBD700017A59 /* ViewControllerescuela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerescuela.swift; sourceTree = "<group>"; };
-		AF2BE4092CDFDC2100017A59 /* ViewControllergranja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllergranja.swift; sourceTree = "<group>"; };
-		AF2BE40B2CDFDCA200017A59 /* ViewControllerbosque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerbosque.swift; sourceTree = "<group>"; };
-		AF2BE40D2CDFDCC900017A59 /* ViewControllerayu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerayu.swift; sourceTree = "<group>"; };
-		AF2BE40F2CDFDE3400017A59 /* ViewControllercasas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllercasas.swift; sourceTree = "<group>"; };
 		AF2BE4112CDFEB6C00017A59 /* ViewControllerarteimagen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerarteimagen.swift; sourceTree = "<group>"; };
+		E55840602CE181E3007EDFD7 /* ViewControllerConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerConversation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,14 +203,9 @@
 				AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */,
 				AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */,
 				AF2BE2F32CDF3EA400017A59 /* ViewController.swift */,
+				E55840602CE181E3007EDFD7 /* ViewControllerConversation.swift */,
 				AF2BE2F52CDF3EA400017A59 /* Main.storyboard */,
 				AF2BE4112CDFEB6C00017A59 /* ViewControllerarteimagen.swift */,
-				AF2BE40F2CDFDE3400017A59 /* ViewControllercasas.swift */,
-				AF2BE40D2CDFDCC900017A59 /* ViewControllerayu.swift */,
-				AF2BE40B2CDFDCA200017A59 /* ViewControllerbosque.swift */,
-				AF2BE4092CDFDC2100017A59 /* ViewControllergranja.swift */,
-				AF2BE4072CDFDBD700017A59 /* ViewControllerescuela.swift */,
-				AF2BE4052CDFDB8700017A59 /* ViewControllermercado.swift */,
 				AF2BE4032CDF592500017A59 /* ViewControllercon.swift */,
 				AF2BE3FF2CDF535E00017A59 /* ViewControlleropc.swift */,
 				AF2BE3EF2CDF434300017A59 /* ViewControllerinicio.swift */,
@@ -445,18 +430,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF2BE2F42CDF3EA400017A59 /* ViewController.swift in Sources */,
-				AF2BE40E2CDFDCC900017A59 /* ViewControllerayu.swift in Sources */,
-				AF2BE4102CDFDE3400017A59 /* ViewControllercasas.swift in Sources */,
-				AF2BE40C2CDFDCA200017A59 /* ViewControllerbosque.swift in Sources */,
+				E55840612CE181E3007EDFD7 /* ViewControllerConversation.swift in Sources */,
 				AF2BE4002CDF535E00017A59 /* ViewControlleropc.swift in Sources */,
 				AF2BE2F02CDF3EA400017A59 /* AppDelegate.swift in Sources */,
 				AF2BE4122CDFEB6C00017A59 /* ViewControllerarteimagen.swift in Sources */,
 				AF2BE4042CDF592500017A59 /* ViewControllercon.swift in Sources */,
 				AF2BE2F22CDF3EA400017A59 /* SceneDelegate.swift in Sources */,
-				AF2BE40A2CDFDC2100017A59 /* ViewControllergranja.swift in Sources */,
-				AF2BE4062CDFDB8700017A59 /* ViewControllermercado.swift in Sources */,
 				AF2BE3F02CDF434300017A59 /* ViewControllerinicio.swift in Sources */,
-				AF2BE4082CDFDBD700017A59 /* ViewControllerescuela.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
