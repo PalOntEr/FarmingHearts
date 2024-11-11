@@ -180,10 +180,10 @@
             </objects>
             <point key="canvasLocation" x="609.85915492957747" y="23.664122137404579"/>
         </scene>
-        <!--View Controllercon-->
+        <!--View Controller Map-->
         <scene sceneID="4ED-WX-a7b">
             <objects>
-                <viewController id="oov-Pa-Xif" customClass="ViewControllercon" customModule="Farming_Hearts_beta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oov-Pa-Xif" customClass="ViewControllerMap" customModule="Farming_Hearts_beta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t17-tU-H8P">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -208,7 +208,7 @@
                                     <backgroundConfiguration key="background"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="volvercon:" destination="oov-Pa-Xif" eventType="touchUpInside" id="ytG-IH-ExJ"/>
+                                    <action selector="back:" destination="oov-Pa-Xif" eventType="touchUpInside" id="cNu-rV-eBH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuP-oY-lHz">
@@ -221,6 +221,10 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" red="1" green="0.91841075599999999" blue="0.67364302409999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="belladona:" destination="oov-Pa-Xif" eventType="touchDown" id="i4x-vZ-hcm"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="7gh-Gl-Ezz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEp-gG-abn">
                                 <rect key="frame" x="704" y="108" width="126" height="35"/>
@@ -232,6 +236,10 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" red="1" green="0.91841075599999999" blue="0.67364302409999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="alicia:" destination="oov-Pa-Xif" eventType="touchDown" id="KZ8-Am-Xy8"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="1uS-yz-Ih4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HG3-SL-TtO">
                                 <rect key="frame" x="704" y="151" width="126" height="35"/>
@@ -243,6 +251,10 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" red="1" green="0.91841075599999999" blue="0.67364302409999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="rafael:" destination="oov-Pa-Xif" eventType="touchDown" id="2Wd-re-zPq"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="WgQ-h2-iUC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8w-fR-JVa">
                                 <rect key="frame" x="704" y="194" width="126" height="35"/>
@@ -254,6 +266,10 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" red="1" green="0.91841075599999999" blue="0.67364302409999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="louises:" destination="oov-Pa-Xif" eventType="touchDown" id="KaD-6k-fsp"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="MAI-1x-VPe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTf-NK-pww">
                                 <rect key="frame" x="704" y="237" width="126" height="35"/>
@@ -265,6 +281,10 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" red="1" green="0.91841075599999999" blue="0.67364302409999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="indigo:" destination="oov-Pa-Xif" eventType="touchDown" id="T3z-gP-iwz"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="DrG-Ii-cbj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7u8-cM-HNb">
                                 <rect key="frame" x="703" y="280" width="129" height="35"/>
@@ -276,28 +296,12 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" red="1" green="0.91841075599999999" blue="0.67364302409999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="indigo:" destination="oov-Pa-Xif" eventType="touchDown" id="Uyu-yW-B9h"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="Cto-EC-z4Z"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Belladonna avergonzada.png" translatesAutoresizingMaskIntoConstraints="NO" id="yrw-R3-pWQ">
-                                <rect key="frame" x="105" y="75" width="77" height="128"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Indigo Avergonzado.png" translatesAutoresizingMaskIntoConstraints="NO" id="twv-pQ-bph">
-                                <rect key="frame" x="253" y="55" width="84" height="118"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alicia seria.png" translatesAutoresizingMaskIntoConstraints="NO" id="UNq-qk-dbL">
-                                <rect key="frame" x="216" y="151" width="61" height="129"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Louisa Feliz.png" translatesAutoresizingMaskIntoConstraints="NO" id="af7-Ho-S6Q">
-                                <rect key="frame" x="519" y="70" width="65" height="108"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Louise Feliz.png" translatesAutoresizingMaskIntoConstraints="NO" id="uY6-ZL-v2A">
-                                <rect key="frame" x="587" y="70" width="83" height="108"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zi8-ua-GND">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zi8-ua-GND" userLabel="Rafael">
                                 <rect key="frame" x="359" y="33" width="115" height="116"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -310,6 +314,100 @@
                                     <backgroundConfiguration key="background" image="Rafael Feliz.png"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="rafael:" destination="oov-Pa-Xif" eventType="touchDown" id="xri-YP-AuQ"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="Ibs-r6-xrb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="hYH-o5-wfq" userLabel="Louisa">
+                                <rect key="frame" x="494" y="66" width="115" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="Louisa Feliz.png"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="louises:" destination="oov-Pa-Xif" eventType="touchDown" id="HkF-1S-gFS"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="28c-74-T2H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="umv-6n-Arf" userLabel="Louise">
+                                <rect key="frame" x="571" y="66" width="115" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="Louise Feliz.png"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="louises:" destination="oov-Pa-Xif" eventType="touchDown" id="7Js-Bm-VSG"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="l6X-i3-iWa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="3jI-ka-4jy" userLabel="Alicia">
+                                <rect key="frame" x="182" y="145" width="131" height="132"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="Alicia seria.png"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="alicia:" destination="oov-Pa-Xif" eventType="touchDown" id="iHZ-LF-h4E"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="pGM-x1-XNf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="kgB-zb-YVA" userLabel="Indigo">
+                                <rect key="frame" x="238" y="56" width="115" height="116"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="Indigo Avergonzado.png"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="indigo:" destination="oov-Pa-Xif" eventType="touchDown" id="cHz-rU-Okm"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="pyZ-X4-6pM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="r9c-MP-aJM" userLabel="Belladona">
+                                <rect key="frame" x="80" y="75" width="127" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="Belladonna avergonzada.png"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="belladona:" destination="oov-Pa-Xif" eventType="touchDown" id="US1-dr-dCo"/>
+                                    <segue destination="b6A-vA-oKS" kind="presentation" id="Opq-bS-FhH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Igt-Q6-lgj"/>
@@ -529,6 +627,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Ibs-r6-xrb"/>
         <segue reference="Qbq-Bj-e9X"/>
     </inferredMetricsTieBreakers>
     <resources>

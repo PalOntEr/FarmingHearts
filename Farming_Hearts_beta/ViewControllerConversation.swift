@@ -10,9 +10,12 @@ import UIKit
 class ViewControllerConversation: UIViewController {
 
     var messageId = 0;
+    var curChar: String? = "Jefe";
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.curChar = UserDefaults.standard.string(forKey: "currentCharacter");
+        print(self.curChar ?? "curChar was not set");
         // Do any additional setup after loading the view.
     }
     
