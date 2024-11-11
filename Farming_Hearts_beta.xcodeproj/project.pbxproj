@@ -209,8 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				915DA0BA2CE17920003EB5B9 /* Dialog.swift */,
-				915DA0A92CE1775A003EB5B9 /* dialogs.json */,
 				AF2BE2EF2CDF3EA400017A59 /* AppDelegate.swift */,
+				915DA0A92CE1775A003EB5B9 /* dialogs.json */,
 				AF2BE2F12CDF3EA400017A59 /* SceneDelegate.swift */,
 				AF2BE2F32CDF3EA400017A59 /* ViewController.swift */,
 				E55840602CE181E3007EDFD7 /* ViewControllerConversation.swift */,
