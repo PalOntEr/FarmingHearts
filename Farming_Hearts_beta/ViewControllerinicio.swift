@@ -11,7 +11,7 @@ class ViewControllerinicio: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        UserDefaults.standard.set(nil, forKey: "currentCharacter")
         // Do any additional setup after loading the view.
     }
     
