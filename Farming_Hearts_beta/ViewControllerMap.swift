@@ -34,7 +34,7 @@ class ViewControllerMap: UIViewController {
         UserDefaults.standard.set("Rafael", forKey: "currentCharacter")
     }
     @IBAction func belladona(_ sender: Any) {
-        UserDefaults.standard.set("Belladona", forKey: "currentCharacter")
+        UserDefaults.standard.set("Belladonna", forKey: "currentCharacter")
     }
     @IBAction func indigo(_ sender: Any) {
         UserDefaults.standard.set("Indigo", forKey: "currentCharacter")
