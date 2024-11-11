@@ -546,9 +546,570 @@
     "Indigo":{
         "dialogs": [
             {
+                "response": 1,
+                "expression": 1,
+                "text": "Salimos del edificio y seguimos caminando hasta llegar al bosque cerca y nos sentamos en una banca",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 4,
+                "text": "Una disculpa que tuvieras que ver eso a veces mi papá y yo tenemos desacuerdos y escalan un poco rápido.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 4,
+                "text": "No te preocupes yo sé que a veces esas cosas pasan",
+                "background": "Forest"
+            },
+            {
                 "response": 0,
                 "expression": 1,
-                "text": "Y de paso preguntale si tiene algun par de manos que les guste ayudarme de paso, hacen falta aquí, ¡adios!",
+                "text": "Muchas gracias por entenderlo.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 4,
+                "text": "Me acabo de dar cuenta que ni siquiera me había presentado un disculpa me llamo indigo.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 4,
+                "text": "Nunca te había visto por aquí. Eres nuevo en el pueblo?",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Mucho gusto indigo. Yo me llamo Oliver. De hecho si soy nuevo justo voy llegando.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "O eso es genial. Y cuentame que haces en nuestro pueblo?",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": 3,
+                "text": "Veo que vibra el celular de indigo y lo revisa claramente enojado",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 2,
+                "text": "Estás bien?",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Si no te preocupes simplemente era papá",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 2,
+                "text": "¿Oh y todo bien?",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "No, ultimamente cuando hablamos nada sale bien, el simplemente está demasiado arraigado en sus creencias",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 2,
+                "text": "¿A qué te refieres con eso?",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "Mi padre cree que la tala desmedida es la mejor alternativa que tenemos para poder mejorar el futuro.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "El está dispuesto a destruir todos los bosques con tal de poder sembrar más.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "Sin comprender que eso nos terminará perjudicando, y lo peor de todo es que no puedo detenerlo",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "Siempre que intento hablar con él sale con lo mismo de",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "“Esto es lo que más dinero nos va a dar por lo tanto es la mejor opción para el pueblo”",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Y no importa que haga, no puedo sacarlo de esa posición ",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 2,
+                "text": "Puede que la mejor opción no sea dialogar con tu papá",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 2,
+                "text": "Si ya has intentado hacerlo muchas veces quizás es tiempo de tomar acciones",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 2,
+                "text": "Puedes reunir firmas, juntar personas con tu misma visión y ese tipo de cosas.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 2,
+                "text": "Al final ya teniendo una comunidad quizás logres detener a tu padre ",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Pero perdería por completo la relación con mi padre y no se si pueda hacerlo.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Perdón me tengo que ir para poder pensar mejor en que voy a hacer",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Veo a Indigo correr en dirección al ayuntamiento y me quedo viendo a los alrededores antes de regresar.",
+                "background": "Forest"
+            }
+        ]
+    },
+      "Louisa": {
+        "dialogs": [
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Después de caminar por un rato, por fin llegas a la granja que podías ver desde la distancia",
+                "background": "Farm"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Cuendo te acercas puedes ver a dos perosnas conversar mientras trabajan",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "¿Escuchaste que llego un nuevo al pueblo? Parece ser nieto del señor Leonardo y llego de la ciudad",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Si, ya sabes lo rapido que se corre la voz. Podria ser divertido tener a alguien nuevo por aquí…",
+                "background": "Farm"
+            },
+            {
+                "response": 1,
+                "expression": 4,
+                "text": "Parece que estoy interrumpiendo una conversacion importante",
+                "background": "Farm"
+            },
+            {
+                "response": 2,
+                "expression": 4,
+                "text": "Ambos voltearon a verme, sorprendidos",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Perdon, solo no estamos acostumbrados a ver caras nuevas por aqui",
+                "background": "Farm"
+            },
+            {
+                "response": 1,
+                "expression": 2,
+                "text": "Esta bien solo siento extraño que todo el mundo este hablando de mi",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Lo sentimos. Debe de ser un gran shock volver despues de tanto tiempo",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Aqui todos nos conocemos a todos y nos enteramos de todo muy rapido",
+                "background": "Farm"
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Lo se aun no olvido la vida en el pueblo. Aunque si es muy diferente a la ciudad. ¿Ustedes cuidan la granja?",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "¡Sí! Bueno, somos los dueños, técnicamente. No es muy fácil, pero puede ser divertido.",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Especialmente porque últimamente hemos tenido unos emm… problemas en la granja.",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 2,
+                "text": "Un cambio de ambiente tan drástico como el tuyo probablemente debe ser muy pesado.",
+                "background": "Farm"
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Reconozco que es un poco difícil lidiar conmigo. Sigo intentando asimilar mi nueva realidad.",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Tú tranquilo, te entendemos. Probablemente nosotros actuaríamos igual tuviéramos que mudarnos a la ciudad.",
+                "background": "Farm"
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Pero la ciudad es lo mejor.",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 4,
+                "text": "Bueno, eso es subjetivo… claramente piensas muy diferente a nosotros. Para gustos colores.",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "De igual manera, espero que aprendas a querer la vida en el pueblo. ¡A veces un cambio así es lo que necesitas!",
+                "background": "Farm"
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Gracias, emm… ¿cómo se llaman?",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Yo soy Louise.",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "¡Y yo soy Louisa!",
+                "background": "Farm"
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Bueno, gracias Louis, gracias Louisa. Yo soy Oliver. Honestamente fue un gusto conocerlos.",
+                "background": "Farm"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "¡Igual! Esperamos volverte a ver por aquí.",
+                "background": "Farm"
+            },
+            {
+                "response": 2,
+                "expression": 1,
+                "text": "Te despides una vez más de el curioso par de granjeros",
+                "background": "Farm"
+            },
+            {
+                "response": 2,
+                "expression": 1,
+                "text": "Mientras te alejas, piensas en como ellos te recibieron con los brazos abiertos y querían hacerte sentir mejor.",
+                "background": "Farm"
+            },
+            {
+                "response": 2,
+                "expression": 1,
+                "text": "Quizá hay muchas cosas que podrías aprender de las personas de este pueblo.",
+                "background": "Farm"
+            }
+
+        ]
+    },
+    "Alicia":{
+        "dialogs": [
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Al fin tengo tiempo para salir afuera después de todo el trabajo horrible (limpiar) que me puso a hacer mi abuelo",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Ahora quiere que vaya a comprarle algo de las tiendas.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Mi abuelo diciendo que necesitaba algo entre las líneas de clavos o algo por el estilo.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Mientras voy en camino hacia las tiendas, apunto de tocar la puerta",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Una piedra se interpone en mi camino…y me caigo. Directo en mi cara. Mi día no podria ir mejor.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Aunque mi cara y dignidad estén heridas, me paro y rezo que nadie mas haya visto mi dignidad romperse.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Estúpida piedra, estupida tierra, estupido lugar.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Porque me tengo que quedar aqui, el concepto de una banqueta es no existente aquí o que?",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "En ese momento escucho una voz tímida llamando tu atención.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 4,
+                "text": "¿Um, disculpa…estás bien? Eso pareció ser una caída muy fea.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 4,
+                "text": "LO VISTE?!!!!",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 4,
+                "text": "No puedo evitar gritarle en la cara, pena llenando todo mi ser. Adiós dignidad que me quedaba.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": 4,
+                "text": "Y después se rie. Una risa leve pero melodiosa al mismo tiempo.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 4,
+                "text": "No te rías, mi dignidad ya está rota, no necesito que la aplastes mas.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 4,
+                "text": "Perdon, perdon. Tu cara me dio un poco de risa.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": 0,
+                "text": "La mujer extiende sus manos en una expresión de apalancamiento.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Pero ya en serio ¿seguro que estas bien? Te puedo checar si estas herido en alguna parte.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "Solo si quieres, claro.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 3,
+                "text": "¿Por qué? ¿Eres doctora o algo por el estilo?",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": 3,
+                "text": "Ya llevaba un dia horrible y no podía evitar sonar un poco enojado sin querer.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "Oh no, perdón. Ni siquiera te he dicho mi nombre, que mal gusto.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Soy Alicia, y para contestar tu duda, sí, soy doctora de aquí.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Huh, no sabia que habia un hospital por aqui.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 3,
+                "text": "Se verá como que no, pero la verdad es que si tenemos el problema es que, bueno...",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 3,
+                "text": "Se puede decir que está algo lejos de aquí.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Pero suficiente sobre eso, deja te ayudo con tu herida, acabo de comprar unos materiales para la clinica.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Oh no, esta bien. No tienes que gastar eso en mi, no es tan grave.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 1,
+                "text": "Oh calla para nada, es mi trabajo ayudar a la gente. Aparte estas sangrando un poco.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": 1,
+                "text": "En eso me doy cuenta que mi frente tiene una pequeña cortada. ",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 1,
+                "text": "Adelante, ya que insistes. Solo que no creo tener el dinero en este momento para regresarte lo que usaste.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Como dije, no te preocupes de los detalles. ¡Puedes pasar otro día al consultorio si ocupas cualquier cosa!",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Oh no, esta bien. No tienes que gastar eso en mi, no es tan grave.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": 0,
+                "text": "Alicia limpia mi herida de manera sutil y gentilmente. siendo cuidadosa de que no duela tanto.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Y listo, solo ten cuidado de no tocar mucho la herida por un rato, ya que se puede caer la curita.",
+                "background": "Forest"
+            },
+            {
+                "response": 1,
+                "expression": 0,
+                "text": "Entiendo, um…muchas gracias por ayudarme, y perdón por tener un poco de actitud al principio.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "No te preocupes, entiendo.",
+                "background": "Forest"
+            },
+            {
+                "response": 0,
+                "expression": 0,
+                "text": "Bueno ya me voy para llegar a tiempo al consultorio. Si me necesitas me puedes buscar en el hospital.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Y justo así, se va de la tienda, dejándome solo pensando sobre la interacción que tuve el día de hoy.",
+                "background": "Forest"
+            },
+            {
+                "response": 2,
+                "expression": -1,
+                "text": "Tengo que admitir que Alicia es una persona muy linda.",
                 "background": "Forest"
             }
         ]
