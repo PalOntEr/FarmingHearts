@@ -19,11 +19,13 @@ class Dialog: Codable {
     public let response: Response   // Cambié a Response en lugar de Bool
     public let text: String
     public let expression: expression
+    public let background: String
 
-    init(response: Response, text: String, expression: expression) {
+    init(response: Response, text: String, expression: expression, background: String) {
         self.response = response
         self.text = text
         self.expression = expression
+        self.background = background
     }
 }
 
