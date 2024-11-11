@@ -546,7 +546,7 @@
     "Indigo":{
         "dialogs": [
             {
-                "response": 1,
+                "response": 2,
                 "expression": 1,
                 "text": "Salimos del edificio y seguimos caminando hasta llegar al bosque cerca y nos sentamos en una banca",
                 "background": "Forest"
@@ -882,235 +882,235 @@
                 "response": 2,
                 "expression": -1,
                 "text": "Al fin tengo tiempo para salir afuera después de todo el trabajo horrible (limpiar) que me puso a hacer mi abuelo",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "Ahora quiere que vaya a comprarle algo de las tiendas.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "Mi abuelo diciendo que necesitaba algo entre las líneas de clavos o algo por el estilo.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "Mientras voy en camino hacia las tiendas, apunto de tocar la puerta",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "Una piedra se interpone en mi camino…y me caigo. Directo en mi cara. Mi día no podria ir mejor.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "Aunque mi cara y dignidad estén heridas, me paro y rezo que nadie mas haya visto mi dignidad romperse.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "Estúpida piedra, estupida tierra, estupido lugar.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "Porque me tengo que quedar aqui, el concepto de una banqueta es no existente aquí o que?",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "En ese momento escucho una voz tímida llamando tu atención.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 4,
                 "text": "¿Um, disculpa…estás bien? Eso pareció ser una caída muy fea.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 4,
                 "text": "LO VISTE?!!!!",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 4,
                 "text": "No puedo evitar gritarle en la cara, pena llenando todo mi ser. Adiós dignidad que me quedaba.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": 4,
                 "text": "Y después se rie. Una risa leve pero melodiosa al mismo tiempo.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 4,
                 "text": "No te rías, mi dignidad ya está rota, no necesito que la aplastes mas.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 4,
                 "text": "Perdon, perdon. Tu cara me dio un poco de risa.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": 0,
                 "text": "La mujer extiende sus manos en una expresión de apalancamiento.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 0,
                 "text": "Pero ya en serio ¿seguro que estas bien? Te puedo checar si estas herido en alguna parte.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 3,
                 "text": "Solo si quieres, claro.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 3,
                 "text": "¿Por qué? ¿Eres doctora o algo por el estilo?",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": 3,
                 "text": "Ya llevaba un dia horrible y no podía evitar sonar un poco enojado sin querer.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 3,
                 "text": "Oh no, perdón. Ni siquiera te he dicho mi nombre, que mal gusto.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 1,
                 "text": "Soy Alicia, y para contestar tu duda, sí, soy doctora de aquí.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 1,
                 "text": "Huh, no sabia que habia un hospital por aqui.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 3,
                 "text": "Se verá como que no, pero la verdad es que si tenemos el problema es que, bueno...",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 3,
                 "text": "Se puede decir que está algo lejos de aquí.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 0,
                 "text": "Pero suficiente sobre eso, deja te ayudo con tu herida, acabo de comprar unos materiales para la clinica.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 0,
                 "text": "Oh no, esta bien. No tienes que gastar eso en mi, no es tan grave.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 1,
                 "text": "Oh calla para nada, es mi trabajo ayudar a la gente. Aparte estas sangrando un poco.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": 1,
                 "text": "En eso me doy cuenta que mi frente tiene una pequeña cortada. ",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 1,
                 "text": "Adelante, ya que insistes. Solo que no creo tener el dinero en este momento para regresarte lo que usaste.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 0,
                 "text": "Como dije, no te preocupes de los detalles. ¡Puedes pasar otro día al consultorio si ocupas cualquier cosa!",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 0,
                 "text": "Oh no, esta bien. No tienes que gastar eso en mi, no es tan grave.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": 0,
                 "text": "Alicia limpia mi herida de manera sutil y gentilmente. siendo cuidadosa de que no duela tanto.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 0,
                 "text": "Y listo, solo ten cuidado de no tocar mucho la herida por un rato, ya que se puede caer la curita.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 1,
                 "expression": 0,
                 "text": "Entiendo, um…muchas gracias por ayudarme, y perdón por tener un poco de actitud al principio.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 0,
                 "text": "No te preocupes, entiendo.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 0,
                 "expression": 0,
                 "text": "Bueno ya me voy para llegar a tiempo al consultorio. Si me necesitas me puedes buscar en el hospital.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "Y justo así, se va de la tienda, dejándome solo pensando sobre la interacción que tuve el día de hoy.",
-                "background": "Forest"
+                "background": "Market"
             },
             {
                 "response": 2,
                 "expression": -1,
                 "text": "Tengo que admitir que Alicia es una persona muy linda.",
-                "background": "Forest"
+                "background": "Market"
             }
         ]
     }
