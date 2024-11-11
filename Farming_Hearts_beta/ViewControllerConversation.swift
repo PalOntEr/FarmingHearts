@@ -26,7 +26,7 @@ class ViewControllerConversation: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.curChar = UserDefaults.standard.string(forKey: "currentCharacter");
+        self.curChar = UserDefaults.standard.string(forKey: "currentCharacter") ?? "Jefe";
         
         loadMessage(characterValue: self.curChar ?? "", id: messageId);
 
@@ -66,7 +66,21 @@ class ViewControllerConversation: UIViewController {
             }
         } else {
             print("No se encontró el personaje o el diálogo.")
-            self.back(self);
+            if (self.curChar == "Jefe"){
+                self.curChar = "Abuelo"
+                self.messageId = 0
+                loadMessage(characterValue: "Abuelo", id: self.messageId)
+            }
+            else if(self.curChar == "Abelo"){
+                if let navigationController = self.navigationController {
+                    navigationController.popViewController(animated: true)
+                    let map = self.storyboard?.instantiateViewController(withIdentifier: "Map") as! ViewControllerMap
+                    navigationController.pushViewController(map, animated: true)
+                }
+            }
+            else {
+                self.back(self)
+            }
         }
     }
     

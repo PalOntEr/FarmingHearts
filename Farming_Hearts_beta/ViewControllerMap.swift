@@ -27,6 +27,7 @@ class ViewControllerMap: UIViewController {
     */
     
     @IBAction func back(_ sender: Any) {
+        UserDefaults.standard.set(nil, forKey: "currentCharacter")
         dismiss(animated: true, completion: nil)
     }
     
