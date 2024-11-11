@@ -8,13 +8,19 @@
 import UIKit
 
 class ViewControlleropc: UIViewController {
-
+    
+    @IBOutlet weak var AmbientBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if(UserDefaults.standard.bool(forKey: "ambient")){
+            AmbientBtn.alpha = 1;
+        }
+        else {
+            AmbientBtn.alpha = 0.8;
+        }
     }
-    
 
     /*
     // MARK: - Navigation
@@ -28,5 +34,17 @@ class ViewControlleropc: UIViewController {
 
     @IBAction func volver_inicio_opc(_ sender: Any) {
         dismiss(animated: true,completion: nil)
+    }
+    
+    @IBAction func stopBkgMusic(_ sender: Any) {
+        if (UserDefaults.standard.bool(forKey: "ambient")){
+            AudioManager.shared.stopBackgroundMusic()
+            UserDefaults.standard.set(false, forKey: "ambient")
+            self.AmbientBtn.alpha = 0.8;
+        }else{
+            UserDefaults.standard.set(true, forKey: "ambient")
+            AudioManager.shared.playBackgroundMusic("Menu")
+            self.AmbientBtn.alpha = 1;
+        }
     }
 }

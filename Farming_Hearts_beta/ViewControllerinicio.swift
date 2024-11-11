@@ -11,11 +11,13 @@ class ViewControllerinicio: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let curChar = UserDefaults.standard.string(forKey: "currentCharacter")
+        
+        UserDefaults.standard.set(nil, forKey: "currentCharacter")
         // Do any additional setup after loading the view.
     }
     
-
     /*
     // MARK: - Navigation
 
