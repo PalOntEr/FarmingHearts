@@ -1,6 +1,6 @@
 import Foundation
 
-enum Expression: Int, Codable {
+enum expression: Int, Codable {
     case empty = -1    // Valor -1 asignado al caso `empty`
     case neutral = 0
     case happy = 1
@@ -16,11 +16,11 @@ enum Response: Int, Codable {
 }
 
 class Dialog: Codable {
-    let response: Response   // Cambié a Response en lugar de Bool
-    let text: String
-    let expression: Expression
+    public let response: Response   // Cambié a Response en lugar de Bool
+    public let text: String
+    public let expression: expression
 
-    init(response: Response, text: String, expression: Expression) {
+    init(response: Response, text: String, expression: expression) {
         self.response = response
         self.text = text
         self.expression = expression
@@ -36,6 +36,13 @@ class CharacterDialogs: Codable {
 }
 
 class DialogManager {
+    
+    public var Characters : [String: CharacterDialogs]?
+    
+    init(){
+        self.Characters =  loadCharacters();
+    }
+    
     func loadCharacters() -> [String: CharacterDialogs]? {
         guard let url = Bundle.main.url(forResource: "dialogs", withExtension: "json") else {
             print("Error: JSON file not found")
@@ -53,16 +60,22 @@ class DialogManager {
             return nil
         }
     }
-
-    func deJson() {
+                                                
+    func deJson(characterValue: String, id: Int) -> CharacterDialogs? {
         // Uso del método
-        if let characters = loadCharacters() {
+        if let characters = self.Characters {
             for (name, character) in characters {
-                print("Character: \(name)")
-                for dialog in character.dialogs {
-                    print("Response: \(dialog.response), Expression: \(dialog.expression), Text: \(dialog.text)")
+                if characterValue == name {
+                    for i in 0..<character.dialogs.count {  // Bucle correcto para iterar sobre los diálogos
+                        // Verificar si el id coincide con el índice del diálogo
+                        if id == i {  // Compara el id con el índice
+                            return character // Regresar el objeto `CharacterDialogs`
+                        }
+                    }
                 }
             }
         }
+        return nil  // Si no se encuentra el personaje o diálogo, regresar nil
     }
+
 }
