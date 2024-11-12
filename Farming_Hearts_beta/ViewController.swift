@@ -9,9 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let dialogManager = DialogManager()
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        AudioManager.shared.playBackgroundMusic("Menu")
+        
+        UserDefaults.standard.set(true, forKey: "ambient")
+        UserDefaults.standard.set(true, forKey: "music")
+        
     }
 
 

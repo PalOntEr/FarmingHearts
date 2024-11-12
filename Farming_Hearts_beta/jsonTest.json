@@ -1,0 +1,27 @@
+{
+    "Rafael": {
+        "name": "Rafael",
+        "dialogs": [
+            {
+                "response": true,
+                "text": "Sigo caminando hasta ver un edificio a lo lejos."
+            },
+            {
+                "response": true,
+                "text": "Parece ser una escuela, y ahora hay unos niños afuera hablando con un hombre, ¿Será el maestro?"
+            },
+            {
+                "response": true,
+                "text": "Comienzo a acercarme por curiosidad y veo a los niños riéndoe y divirtiéndose."
+            },
+            {
+                "response": true,
+                "text": "El hombre te ve de lejos y sonríe saludándote."
+            },
+            {
+                "response": false,
+                "text": "¡Hey!, Tú eres el nuevo, ¿no? El nieto del señor Leo."
+            }
+        ]
+    }
+}
